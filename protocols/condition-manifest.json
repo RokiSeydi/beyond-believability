@@ -1,0 +1,63 @@
+{
+  "experiment_id": "dyad-01-participant-a-agent-packs-v1",
+  "participant": "Participant A",
+  "relationship_system": "Dyad 01",
+  "pseudonymised": true,
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "api": "responses",
+  "development_episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "episodes_with_evidence": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+  ],
+  "held_out_episodes": [
+    8,
+    9
+  ],
+  "conditions": [
+    {
+      "id": "minimal_persona",
+      "file": "participant-a/minimal-persona.md",
+      "retrieval": false
+    },
+    {
+      "id": "memory_reflection",
+      "file": "participant-a/memory-reflection.json",
+      "retrieval": true
+    },
+    {
+      "id": "behavioural_graph",
+      "file": "participant-a/behavioural-graph.json",
+      "retrieval": true
+    },
+    {
+      "id": "hybrid_memory_graph",
+      "file": "participant-a/hybrid-memory-graph.json",
+      "retrieval": true
+    }
+  ],
+  "common_system_prompt": "common-system-prompt.txt",
+  "output_schema": "output-schema.json",
+  "target_runtime_context_tokens": {
+    "minimal_persona": "unmatched_low_information_baseline",
+    "memory_reflection": 3200,
+    "behavioural_graph": 3200,
+    "hybrid_memory_graph": 3200
+  },
+  "repetitions_per_condition_situation": 5,
+  "version": "1.0.0",
+  "frozen": true
+}

@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "experiment_id": "dyad-01-participant-a-heldout-v1",
+    "target_participant": "Participant A",
+    "relationship_system": "Dyad 01",
+    "source_window": "Episodes 8–9",
+    "development_window": "Episodes 1–7",
+    "contains_observed_responses": false,
+    "identity_key_included": false,
+    "version": "1.0.0",
+    "frozen": true
+  },
+  "instructions": "Each situation ends immediately before Participant A's target response. The agent must predict Participant A, not recommend ideal behaviour. No ground-truth file may be loaded during retrieval or generation.",
+  "situations": [
+    {
+      "situation_id": "d01-pa-h01",
+      "episode": 8,
+      "part": 2,
+      "target": "Participant A",
+      "interaction_domain": "intimacy_bid",
+      "situation_text": "Participant B comes home from work and asks Participant A for a long hug. No additional explanation for the request is given.",
+      "prediction_point": "Predict Participant A's immediate interpretation, emotional stance, verbal or non-verbal response, relational objective, escalation level and immediate effect on Participant B.",
+      "excluded_information": "Participant A's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "d01-pa-h02",
+      "episode": 8,
+      "part": 2,
+      "target": "Participant A",
+      "interaction_domain": "partner_requests_space",
+      "situation_text": "During a tense interaction at home, Participant B indicates that they do not want to continue talking at that moment and need some space. Participant B does not say that the relationship is ending.",
+      "prediction_point": "Predict how Participant A interprets the request for space and what Participant A is likely to say or do next.",
+      "excluded_information": "Participant A's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "d01-pa-h03",
+      "episode": 9,
+      "part": 1,
+      "target": "Participant A",
+      "interaction_domain": "household_labour_and_love",
+      "situation_text": "Participant B tells Participant A that Participant A's expectations about household work make affection feel conditional on physical labour. Participant B compares the expected role to servitude and says that love appears to be exchanged for work.",
+      "prediction_point": "Predict Participant A's immediate interpretation and response, including what relational concern Participant A may be trying to protect or communicate.",
+      "excluded_information": "Participant A's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "d01-pa-h04",
+      "episode": 9,
+      "part": 1,
+      "target": "Participant A",
+      "interaction_domain": "post_conflict_self_regulation",
+      "situation_text": "After a serious argument, Participant A remains at home while Participant B is away and expects Participant B to return later. The conflict has not yet been fully resolved.",
+      "prediction_point": "Predict how Participant A is likely to regulate the distress before Participant B returns, what Participant A may do in the home and what relational objective that behaviour may serve.",
+      "excluded_information": "Participant A's observed response and all subsequent discussion are withheld."
+    }
+  ]
+}

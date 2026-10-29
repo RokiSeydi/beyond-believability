@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "experiment_id": "triad-01-participant-c-heldout-v1",
+    "target_participant": "Participant C",
+    "relationship_system": "Triad 01",
+    "source_window": "Episodes 8–9",
+    "development_window": "Episodes 1–7",
+    "contains_observed_responses": false,
+    "identity_key_included": false,
+    "version": "1.0.0",
+    "frozen": true
+  },
+  "instructions": "Each situation ends immediately before Participant C's target response. Predict Participant C rather than recommend ideal behaviour. Ground truth must not be loaded during retrieval or generation.",
+  "situations": [
+    {
+      "situation_id": "t01-pc-h01",
+      "episode": 8,
+      "part": 1,
+      "target": "Participant C",
+      "interaction_domain": "attention_to_partner_distress",
+      "situation_text": "Participant E describes feeling detached from being the central actor in Participant E's own life, overwhelmed and increasingly isolated. The clinician asks Participant C what Participant C thinks about Participant E's description.",
+      "prediction_point": "Predict Participant C's immediate focus, interpretation, affect, response strategy, relational objective, escalation and effect on Participant E.",
+      "excluded_information": "Participant C's observed response and subsequent clinician interpretation are withheld."
+    },
+    {
+      "situation_id": "t01-pc-h02",
+      "episode": 9,
+      "part": 2,
+      "target": "Participant C",
+      "interaction_domain": "fear_of_veto",
+      "situation_text": "Participant E says there is a persistent fear that the established C–D partnership could become exclusive, leaving Participant E outside the relationship through a decision Participant E cannot control.",
+      "prediction_point": "Predict Participant C's immediate response to Participant E's fear, including how Participant C addresses veto power, continuity and relational security.",
+      "excluded_information": "Participant C's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pc-h03",
+      "episode": 9,
+      "part": 2,
+      "target": "Participant C",
+      "interaction_domain": "possible_relocation",
+      "situation_text": "Participant E raises a plausible future in which Participants C and D might move to another city. Participant E says it would feel inappropriate to prevent that move and recognises Participant C's career and the established pair's future as legitimate considerations.",
+      "prediction_point": "Predict Participant C's immediate interpretation, affective stance and response to Participant E's position.",
+      "excluded_information": "Participant C's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pc-h04",
+      "episode": 9,
+      "part": 2,
+      "target": "Participant C",
+      "interaction_domain": "ideology_and_specialness",
+      "situation_text": "The clinician suggests that non-hierarchical relationship ideology can sometimes obscure conflicting feelings or needs and notes that stated principles do not remove emotional tensions within the relational system.",
+      "prediction_point": "Predict whether and how Participant C relates non-hierarchical values to Participant C's own need for specialness, including affect, strategy, objective, escalation and partner effect.",
+      "excluded_information": "Participant C's observed response and all subsequent discussion are withheld."
+    }
+  ]
+}

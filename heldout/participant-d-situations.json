@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "experiment_id": "triad-01-participant-d-heldout-v1",
+    "target_participant": "Participant D",
+    "relationship_system": "Triad 01",
+    "source_window": "Episodes 8–9",
+    "development_window": "Episodes 1–7",
+    "contains_observed_responses": false,
+    "identity_key_included": false,
+    "version": "1.0.0",
+    "frozen": true
+  },
+  "instructions": "Each situation ends before Participant D's target response. Predict the participant rather than recommend ideal behaviour. Ground truth must not be loaded during retrieval or generation.",
+  "situations": [
+    {
+      "situation_id": "t01-pd-h01",
+      "episode": 8,
+      "part": 1,
+      "target": "Participant D",
+      "interaction_domain": "blocked_invitation",
+      "situation_text": "Participant E has received a simple choice about inviting Participant D to a social event with E's other anchor partner, but has taken no action. The missed invitation is now discussed in therapy.",
+      "prediction_point": "Predict Participant D's immediate interpretation, affect, strategy, objective, escalation and effect on Participant E.",
+      "excluded_information": "Participant D's observed response and subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pd-h02",
+      "episode": 8,
+      "part": 1,
+      "target": "Participant D",
+      "interaction_domain": "partner_panic",
+      "situation_text": "Participant E explains that the invitation choice produced internal panic about doing it wrong and disappointing both partners.",
+      "prediction_point": "Predict how Participant D responds after hearing the fear underneath E's inaction.",
+      "excluded_information": "Participant D's observed response and subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pd-h03",
+      "episode": 8,
+      "part": 1,
+      "target": "Participant D",
+      "interaction_domain": "partner_loss_of_agency",
+      "situation_text": "Participant E describes isolation, having no forward plans and feeling detached from being the central actor in E's own life.",
+      "prediction_point": "Predict Participant D's immediate verbal or non-verbal response, including whether D centres E, redirects, reassures, problem-solves or remains quiet.",
+      "excluded_information": "Participant D's observed response and subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pd-h04",
+      "episode": 9,
+      "part": 2,
+      "target": "Participant D",
+      "interaction_domain": "future_security_and_move",
+      "situation_text": "Participant E raises fears that decisions in the established C–D partnership could remove E's relationship, then asks what would happen if C and D moved away.",
+      "prediction_point": "Predict Participant D's immediate verbal or non-verbal role in the exchange, including whether D asserts authority, reassures, negotiates, or leaves space for C and E.",
+      "excluded_information": "Participant D's observed response and subsequent discussion are withheld."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "condition": "memory_reflection",
+    "participant": "Participant C",
+    "partners": [
+      "Participant D",
+      "Participant E"
+    ],
+    "relationship_system": "Triad 01",
+    "development_window": "Episodes 1–7",
+    "held_out_window": "Episodes 8–9",
+    "representation_rule": "Chronological observations and generated reflections are available. No typed behavioural pathways or graph edges are exposed.",
+    "version": "1.0.0",
+    "pseudonymised": true,
+    "experiment_id": "triad-01-participant-e-heldout-v1",
+    "target_participant": "Participant E",
+    "heldout_window": "Episodes 8–9",
+    "memory_construction": "Park_et_al_style_memory_stream_and_reflection",
+    "memory_construction_version": "1.0.0"
+  },
+  "retrieval": {
+    "method": "weighted_memory_retrieval",
+    "score_components": {
+      "semantic_relevance": 1,
+      "importance": 1,
+      "recency": 1
+    },
+    "embedding_model": "text-embedding-ada-002",
+    "runtime_context_budget_approx_tokens": 3200,
+    "maximum_retrieved_memories": 16,
+    "maximum_retrieved_reflections": 6,
+    "tie_breaker": "chronological_order_descending",
+    "importance_scoring": {
+      "method": "independent_llm_poignancy_rating",
+      "model": "gpt-5.6-luna",
+      "scale": "integer_1_to_10",
+      "prompt_source": "Park_et_al_2023_section_4_1"
+    },
+    "reflection_trigger": {
+      "cumulative_importance_threshold": 150,
+      "recent_records_for_question_generation": 100,
+      "questions_per_cycle": 3,
+      "insights_per_cycle": 5,
+      "retrieved_records_per_question": 15
+    }
+  },
+  "memory_stream": [
+    {
+      "memory_id": "participant-e-m001",
+      "chronological_order": 1,
+      "episode": 2,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 2, Part 1 — Clinician: The clinician observes that Participants C and D are speaking from different injuries and each wants the other to recognise what hurt.",
+      "evidence_status": "clinician_formulation",
+      "last_access_order": 1,
+      "importance_1_to_10": 7
+    },
+    {
+      "memory_id": "participant-e-m002",
+      "chronological_order": 2,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant E: Participant E reports having little experience of what the relationship with Participant D would be like if Participant C lived locally more consistently.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 2,
+      "importance_1_to_10": 4
+    },
+    {
+      "memory_id": "participant-e-m003",
+      "chronological_order": 3,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant E: Participant E says time with Participant D has often depended on Participant C being away and that plans could disappear when Participant C returned.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 3,
+      "importance_1_to_10": 7
+    },
+    {
+      "memory_id": "participant-e-m004",
+      "chronological_order": 4,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant E: Participant E describes a scheduled meeting being delayed because Participant D chose additional time with Participant C, making Participant E feel secondary and unable to orient toward the future.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 4,
+      "importance_1_to_10": 7
+    },
+    {
+      "memory_id": "participant-e-m005",
+      "chronological_order": 5,
+      "episode": 2,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 2, Part 1 — Participant C: Participant C notes that the established pair changed their label from primary partners to anchor partners partly to avoid explicitly placing Participant E second.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 5,
+      "importance_1_to_10": 6
+    },
+    {
+      "memory_id": "participant-e-m006",
+      "chronological_order": 6,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E is invited to a family gathering but learns that the relationship with Participant D cannot be openly represented because Participant C has not disclosed non-monogamy to family.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 6,
+      "importance_1_to_10": 8
+    },
+    {
+      "memory_id": "participant-e-m007",
+      "chronological_order": 7,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E experiences concealment at the gathering and a later double-booking as evidence of being structurally secondary.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 7,
+      "importance_1_to_10": 8
+    },
+    {
+      "memory_id": "participant-e-m008",
+      "chronological_order": 8,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E says uncertainty about status affects planning, security and the ability to imagine a future with Participant D.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 8,
+      "importance_1_to_10": 8
+    },
+    {
+      "memory_id": "participant-e-m009",
+      "chronological_order": 9,
+      "episode": 4,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 4, Part 1 — Clinician: The clinician observes that central decisions are still commonly made by Participants C and D, while Participant E must ask for access or changes.",
+      "evidence_status": "clinician_formulation",
+      "last_access_order": 9,
+      "importance_1_to_10": 6
+    },
+    {
+      "memory_id": "participant-e-m010",
+      "chronological_order": 10,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E points out that Participant C remains a major decision-maker in Participant E's relationship with Participant D, including scheduling and family access.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 10,
+      "importance_1_to_10": 7
+    },
+    {
+      "memory_id": "participant-e-m011",
+      "chronological_order": 11,
+      "episode": 4,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 4, Part 1 — Clinician: The clinician asks the established pair to recognise the difference between non-hierarchical language and Participant E's practical experience of unequal authority.",
+      "evidence_status": "clinician_formulation",
+      "last_access_order": 11,
+      "importance_1_to_10": 6
+    },
+    {
+      "memory_id": "participant-e-m012",
+      "chronological_order": 12,
+      "episode": 5,
+      "part": 2,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 5, Part 2 — Participant E: Participant E says this history helps explain Participant D's intense orientation around blame, accountability, loyalty and betrayal.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 12,
+      "importance_1_to_10": 6
+    },
+    {
+      "memory_id": "participant-e-m013",
+      "chronological_order": 13,
+      "episode": 5,
+      "part": 2,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 5, Part 2 — Participant E: Participant E reports that Participant D can respond to relational injury with abrupt withdrawal, global statements and a sense that repair is impossible.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 13,
+      "importance_1_to_10": 7
+    },
+    {
+      "memory_id": "participant-e-m014",
+      "chronological_order": 14,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: At a public event, Participant C avoids clear relationship labels and becomes less physically affectionate with Participant D when Participant E is present.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 14,
+      "importance_1_to_10": 6
+    },
+    {
+      "memory_id": "participant-e-m015",
+      "chronological_order": 15,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C supports Participant D giving attention to Participant E but later notices the emotional toll and feels more distant from Participant D by the end of the day.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 15,
+      "importance_1_to_10": 7
+    },
+    {
+      "memory_id": "participant-e-m016",
+      "chronological_order": 16,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C says Participant D's relationship with Participant E has become more significant than Participant C originally expected.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "last_access_order": 16,
+      "importance_1_to_10": 6
+    }
+  ],
+  "reflections": []
+}

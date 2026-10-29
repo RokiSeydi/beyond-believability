@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "condition": "memory_reflection",
+    "participant": "Participant C",
+    "partners": [
+      "Participant D",
+      "Participant E"
+    ],
+    "relationship_system": "Triad 01",
+    "development_window": "Episodes 1–7",
+    "held_out_window": "Episodes 8–9",
+    "representation_rule": "Chronological observations and generated reflections are available. No typed behavioural pathways or graph edges are exposed.",
+    "version": "1.0.0",
+    "pseudonymised": true,
+    "memory_construction": "Park_et_al_style_memory_stream_and_reflection",
+    "memory_construction_version": "1.0.0"
+  },
+  "retrieval": {
+    "method": "weighted_memory_retrieval",
+    "score_components": {
+      "semantic_relevance": 1,
+      "importance": 1,
+      "recency": 1
+    },
+    "embedding_model": "text-embedding-ada-002",
+    "runtime_context_budget_approx_tokens": 3200,
+    "maximum_retrieved_memories": 16,
+    "maximum_retrieved_reflections": 6,
+    "tie_breaker": "chronological_order_descending",
+    "importance_scoring": {
+      "method": "independent_llm_poignancy_rating",
+      "model": "gpt-5.6-luna",
+      "scale": "integer_1_to_10",
+      "prompt_source": "Park_et_al_2023_section_4_1"
+    },
+    "reflection_trigger": {
+      "cumulative_importance_threshold": 150,
+      "recent_records_for_question_generation": 100,
+      "questions_per_cycle": 3,
+      "insights_per_cycle": 5,
+      "retrieved_records_per_question": 15
+    }
+  },
+  "memory_stream": [
+    {
+      "memory_id": "obs-001",
+      "chronological_order": 1,
+      "episode": 2,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 2, Part 1 — Participant C: Participant C accepts a work opportunity that would bring Participant C to the shared city several additional days each week and assumes Participant D will welcome the increased proximity.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 1
+    },
+    {
+      "memory_id": "obs-002",
+      "chronological_order": 2,
+      "episode": 2,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 2, Part 1 — Participant C: Participant C feels hurt when Participant D does not immediately welcome the opportunity as expected.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 2
+    },
+    {
+      "memory_id": "obs-003",
+      "chronological_order": 3,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant D: Participant D is excited about increased time together but protests that a decision with major effects on Participant D was presented through logistics and assumptions rather than joint discussion.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 3
+    },
+    {
+      "memory_id": "obs-004",
+      "chronological_order": 4,
+      "episode": 2,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 2, Part 1 — Participant C: Participant C hears Participant D's complaint as contradictory to Participant D's repeated requests for more time together.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 4,
+      "last_access_order": 4
+    },
+    {
+      "memory_id": "obs-005",
+      "chronological_order": 5,
+      "episode": 2,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 2, Part 1 — Clinician: The clinician observes that Participants C and D are speaking from different injuries and each wants the other to recognise what hurt.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 7,
+      "last_access_order": 67
+    },
+    {
+      "memory_id": "obs-006",
+      "chronological_order": 6,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant D: Participant D wants to determine who initiated the conflict; the clinician redirects from fault-finding toward understanding incompatible perspectives.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 5,
+      "last_access_order": 6
+    },
+    {
+      "memory_id": "obs-007",
+      "chronological_order": 7,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant E: Participant E reports having little experience of what the relationship with Participant D would be like if Participant C lived locally more consistently.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 4,
+      "last_access_order": 7
+    },
+    {
+      "memory_id": "obs-008",
+      "chronological_order": 8,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant E: Participant E says time with Participant D has often depended on Participant C being away and that plans could disappear when Participant C returned.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 69
+    },
+    {
+      "memory_id": "obs-009",
+      "chronological_order": 9,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant E: Participant E describes a scheduled meeting being delayed because Participant D chose additional time with Participant C, making Participant E feel secondary and unable to orient toward the future.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 65
+    },
+    {
+      "memory_id": "obs-010",
+      "chronological_order": 10,
+      "episode": 2,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 2, Part 1 — Participant C: Participant C notes that the established pair changed their label from primary partners to anchor partners partly to avoid explicitly placing Participant E second.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 5,
+      "last_access_order": 10
+    },
+    {
+      "memory_id": "obs-011",
+      "chronological_order": 11,
+      "episode": 2,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 2, Part 1 — Participant D: Participant D describes the relationships through non-hierarchical or relationship-anarchy values in which each relationship defines its own terms.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 5,
+      "last_access_order": 11
+    },
+    {
+      "memory_id": "obs-012",
+      "chronological_order": 12,
+      "episode": 2,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 2, Part 1 — Clinician: The clinician observes a tension between stated suspicion of hierarchy and practical differences in cohabitation, history, access and decision-making.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 6,
+      "last_access_order": 45
+    },
+    {
+      "memory_id": "obs-013",
+      "chronological_order": 13,
+      "episode": 3,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 3, Part 1 — Participant C: Participant C says an early conflict and a recent conflict shared the theme that Participant D experienced Participant C as less invested.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 68
+    },
+    {
+      "memory_id": "obs-014",
+      "chronological_order": 14,
+      "episode": 3,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 3, Part 1 — Participant C: Participant C acknowledges not orienting toward Participant D in ways that made Participant D feel loved and prioritised.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 66
+    },
+    {
+      "memory_id": "obs-015",
+      "chronological_order": 15,
+      "episode": 3,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 3, Part 1 — Participant D: Participant D describes trying to be an exceptional partner while feeling below Participant C's work, performance practice and business commitments.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 63
+    },
+    {
+      "memory_id": "obs-016",
+      "chronological_order": 16,
+      "episode": 3,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 3, Part 1 — Participant C: Participant C reports making deliberate efforts to prioritise time with Participant D and communicate love in ways Participant D recognises.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 64
+    },
+    {
+      "memory_id": "obs-017",
+      "chronological_order": 17,
+      "episode": 3,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 3, Part 1 — Participant D: Participant D intentionally becomes less delicate and less enthusiastic so Participant C can experience something similar to Participant D's earlier hurt.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 60
+    },
+    {
+      "memory_id": "obs-018",
+      "chronological_order": 18,
+      "episode": 3,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 3, Part 1 — Participant C: Participant C experiences Participant D's reduced care as a deliberate attempt to make Participant C hurt in the way Participant D hurt.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 58
+    },
+    {
+      "memory_id": "obs-019",
+      "chronological_order": 19,
+      "episode": 3,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 3, Part 1 — Participant C: Participant C discloses crossing an agreed relationship boundary with a person who had been specifically excluded.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 9,
+      "last_access_order": 61
+    },
+    {
+      "memory_id": "obs-020",
+      "chronological_order": 20,
+      "episode": 3,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 3, Part 1 — Participant C: Participant C describes the boundary crossing as inconsistent with Participant C's own morals and accepts that it nearly destroyed the established relationship.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 62
+    },
+    {
+      "memory_id": "obs-021",
+      "chronological_order": 21,
+      "episode": 3,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 3, Part 1 — Participant C: After the rupture, Participant C becomes more attentive in order to stop further harm and demonstrate that Participant D remains deeply important.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 140
+    },
+    {
+      "memory_id": "obs-022",
+      "chronological_order": 22,
+      "episode": 3,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 3, Part 1 — Participant D: Participant D forgives Participant C and praises Participant C's bravery while continuing to organise later disagreements around the unresolved injury.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 123
+    },
+    {
+      "memory_id": "obs-023",
+      "chronological_order": 23,
+      "episode": 3,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 3, Part 1 — Clinician: The clinician formulates Participant D as repeatedly approaching partners from an injured and neglected position, seeking recognition of being forgotten.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 7,
+      "last_access_order": 59
+    },
+    {
+      "memory_id": "obs-024",
+      "chronological_order": 24,
+      "episode": 3,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 3, Part 1 — Clinician: The clinician asks Participant D to contain powerful feelings long enough to perceive new information about partners rather than only litigating injury.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 7,
+      "last_access_order": 57
+    },
+    {
+      "memory_id": "obs-025",
+      "chronological_order": 25,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E is invited to a family gathering but learns that the relationship with Participant D cannot be openly represented because Participant C has not disclosed non-monogamy to family.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 133
+    },
+    {
+      "memory_id": "obs-026",
+      "chronological_order": 26,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E experiences concealment at the gathering and a later double-booking as evidence of being structurally secondary.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 130
+    },
+    {
+      "memory_id": "obs-027",
+      "chronological_order": 27,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E says uncertainty about status affects planning, security and the ability to imagine a future with Participant D.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 128
+    },
+    {
+      "memory_id": "obs-028",
+      "chronological_order": 28,
+      "episode": 4,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 4, Part 1 — Participant C: Participant C explains that after the boundary rupture, Participant D said Participant C had lost the right to determine the relationship's form.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 8,
+      "last_access_order": 138
+    },
+    {
+      "memory_id": "obs-029",
+      "chronological_order": 29,
+      "episode": 4,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 4, Part 1 — Participant C: Participant C felt too insecure in the established relationship to advocate for the primary-style partnership Participant C still wanted internally.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 136
+    },
+    {
+      "memory_id": "obs-030",
+      "chronological_order": 30,
+      "episode": 4,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 4, Part 1 — Clinician: The clinician observes that central decisions are still commonly made by Participants C and D, while Participant E must ask for access or changes.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 6,
+      "last_access_order": 80
+    },
+    {
+      "memory_id": "obs-031",
+      "chronological_order": 31,
+      "episode": 4,
+      "part": 1,
+      "source_role": "target_self_report",
+      "memory": "Episode 4, Part 1 — Participant C: Participant C acknowledges that part of Participant C likes retaining some control over the relational system.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 81
+    },
+    {
+      "memory_id": "obs-032",
+      "chronological_order": 32,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant D: Participant D says the earlier boundary rupture makes Participant D want to give Participant C less control.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 141
+    },
+    {
+      "memory_id": "obs-033",
+      "chronological_order": 33,
+      "episode": 4,
+      "part": 1,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 4, Part 1 — Participant E: Participant E points out that Participant C remains a major decision-maker in Participant E's relationship with Participant D, including scheduling and family access.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 102
+    },
+    {
+      "memory_id": "obs-034",
+      "chronological_order": 34,
+      "episode": 4,
+      "part": 1,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 4, Part 1 — Clinician: The clinician asks the established pair to recognise the difference between non-hierarchical language and Participant E's practical experience of unequal authority.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 6,
+      "last_access_order": 103
+    },
+    {
+      "memory_id": "obs-035",
+      "chronological_order": 35,
+      "episode": 5,
+      "part": 2,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 5, Part 2 — Participant D: Participant D recounts a past public catastrophe followed by investigation, blame, legal exposure, family rejection and loss of friendships.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 10,
+      "last_access_order": 135
+    },
+    {
+      "memory_id": "obs-036",
+      "chronological_order": 36,
+      "episode": 5,
+      "part": 2,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 5, Part 2 — Participant D: Participant D describes taking disproportionate responsibility to protect peers who faced additional vulnerability.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 86
+    },
+    {
+      "memory_id": "obs-037",
+      "chronological_order": 37,
+      "episode": 5,
+      "part": 2,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 5, Part 2 — Participant E: Participant E says this history helps explain Participant D's intense orientation around blame, accountability, loyalty and betrayal.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 5,
+      "last_access_order": 87
+    },
+    {
+      "memory_id": "obs-038",
+      "chronological_order": 38,
+      "episode": 5,
+      "part": 2,
+      "source_role": "partner_or_system_report",
+      "memory": "Episode 5, Part 2 — Participant E: Participant E reports that Participant D can respond to relational injury with abrupt withdrawal, global statements and a sense that repair is impossible.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 139
+    },
+    {
+      "memory_id": "obs-039",
+      "chronological_order": 39,
+      "episode": 5,
+      "part": 2,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 5, Part 2 — Clinician: The clinician proposes that present transgressions can receive a larger package of fury carried from Participant D's earlier experience of being made a villain.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 7,
+      "last_access_order": 89
+    },
+    {
+      "memory_id": "obs-040",
+      "chronological_order": 40,
+      "episode": 5,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 5, Part 2 — Participant C: Participant C is present while Participant D's historical relationship to blame is connected to current relational intensity.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 5,
+      "last_access_order": 90
+    },
+    {
+      "memory_id": "obs-041",
+      "chronological_order": 41,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C says that for roughly the first five or six years of the established relationship, Participant C never raised annoyances.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 91
+    },
+    {
+      "memory_id": "obs-042",
+      "chronological_order": 42,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C lacked confidence that Participant D could tolerate Participant C's complaints because the pair had not successfully worked through them.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 92
+    },
+    {
+      "memory_id": "obs-043",
+      "chronological_order": 43,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C describes defaulting to easygoing behaviour and identifies adaptability as a coping mechanism.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 4,
+      "last_access_order": 93
+    },
+    {
+      "memory_id": "obs-044",
+      "chronological_order": 44,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C says Participant C performs mental gymnastics to remain agreeable and follow other people's schedules, interests or preferences.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 94
+    },
+    {
+      "memory_id": "obs-045",
+      "chronological_order": 45,
+      "episode": 6,
+      "part": 2,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 6, Part 2 — Clinician: The clinician observes that distance, work travel and surface agreeableness allow Participant C to create relatively little overt conflict.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 4,
+      "last_access_order": 95
+    },
+    {
+      "memory_id": "obs-046",
+      "chronological_order": 46,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: At a public event, Participant C avoids clear relationship labels and becomes less physically affectionate with Participant D when Participant E is present.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 129
+    },
+    {
+      "memory_id": "obs-047",
+      "chronological_order": 47,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C supports Participant D giving attention to Participant E but later notices the emotional toll and feels more distant from Participant D by the end of the day.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 109
+    },
+    {
+      "memory_id": "obs-048",
+      "chronological_order": 48,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: When Participant D asks whether Participant C can be flexible if boundaries are challenged, Participant C feels trapped because Participant C already struggles to advocate for personal needs.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 148
+    },
+    {
+      "memory_id": "obs-049",
+      "chronological_order": 49,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C worries about living according to Participant D's ideas of what is right rather than identifying and expressing Participant C's own position.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 149
+    },
+    {
+      "memory_id": "obs-050",
+      "chronological_order": 50,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: While describing disagreement, Participant C monitors Participant D's facial expression and fears having disappointed Participant D.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 150
+    },
+    {
+      "memory_id": "obs-051",
+      "chronological_order": 51,
+      "episode": 6,
+      "part": 2,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 6, Part 2 — Clinician: The clinician formulates Participant C as suppressing needs and experiencing ordinary disagreement as potentially displeasing or disappointing Participant D.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 6,
+      "last_access_order": 151
+    },
+    {
+      "memory_id": "obs-052",
+      "chronological_order": 52,
+      "episode": 6,
+      "part": 2,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 6, Part 2 — Clinician: The clinician suggests that the system's idealism can make a direct no feel politically or relationally unacceptable.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 5,
+      "last_access_order": 152
+    },
+    {
+      "memory_id": "obs-053",
+      "chronological_order": 53,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C says Participant D's relationship with Participant E has become more significant than Participant C originally expected.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 6,
+      "last_access_order": 153
+    },
+    {
+      "memory_id": "obs-054",
+      "chronological_order": 54,
+      "episode": 6,
+      "part": 2,
+      "source_role": "target_self_report",
+      "memory": "Episode 6, Part 2 — Participant C: Participant C continues to support the arrangement while admitting that the increased significance is emotionally harder than anticipated.",
+      "evidence_status": "direct_statement_or_observed_dialogue",
+      "importance_1_to_10": 7,
+      "last_access_order": 154
+    },
+    {
+      "memory_id": "obs-055",
+      "chronological_order": 55,
+      "episode": 6,
+      "part": 2,
+      "source_role": "clinician_formulation",
+      "memory": "Episode 6, Part 2 — Clinician: The clinician notes that both Participants C and E are beginning, in different ways, to state personal needs and limits within a system that finds this threatening.",
+      "evidence_status": "clinician_formulation",
+      "importance_1_to_10": 7,
+      "last_access_order": 155
+    }
+  ],
+  "reflections": [
+    {
+      "reflection_id": "ref-c01-01",
+      "generated_after_memory_id": "obs-024",
+      "reflection": "A recurring relationship pattern involves Participant D experiencing Participant C as insufficiently invested or prioritising other commitments, while Participant C acknowledges this impact and attempts to increase attention and communicate love more recognisably.",
+      "importance_1_to_10": 7,
+      "supporting_memory_ids": [
+        "obs-013",
+        "obs-014",
+        "obs-016",
+        "obs-021"
+      ],
+      "reflection_cycle": 1,
+      "last_access_order": 134
+    },
+    {
+      "reflection_id": "ref-c01-02",
+      "generated_after_memory_id": "obs-024",
+      "reflection": "The boundary crossing by Participant C represents a major rupture because it violated an explicit agreement, conflicted with Participant C's morals, and nearly destroyed the relationship.",
+      "importance_1_to_10": 10,
+      "supporting_memory_ids": [
+        "obs-019",
+        "obs-020"
+      ],
+      "reflection_cycle": 1,
+      "last_access_order": 131
+    },
+    {
+      "reflection_id": "ref-c01-03",
+      "generated_after_memory_id": "obs-024",
+      "reflection": "After the rupture, both participants remain caught in reciprocal injury: Participant D reduces care and enthusiasm to communicate the earlier hurt, while Participant C experiences this as intentional retaliation.",
+      "importance_1_to_10": 8,
+      "supporting_memory_ids": [
+        "obs-017",
+        "obs-018",
+        "obs-005"
+      ],
+      "reflection_cycle": 1,
+      "last_access_order": 132
+    },
+    {
+      "reflection_id": "ref-c01-04",
+      "generated_after_memory_id": "obs-024",
+      "reflection": "Participant D's forgiveness and continued commitment coexist with repeated efforts to have the unresolved injury recognised, suggesting that forgiveness has not ended the conflict's influence on later disagreements.",
+      "importance_1_to_10": 8,
+      "supporting_memory_ids": [
+        "obs-022",
+        "obs-023",
+        "obs-024"
+      ],
+      "reflection_cycle": 1,
+      "last_access_order": 142
+    },
+    {
+      "reflection_id": "ref-c01-05",
+      "generated_after_memory_id": "obs-024",
+      "reflection": "The relationship system includes practical differences in access, history, cohabitation and scheduling that can produce experiences of hierarchy or secondary status, particularly for Participant E, even when hierarchy is explicitly questioned.",
+      "importance_1_to_10": 7,
+      "supporting_memory_ids": [
+        "obs-009",
+        "obs-008",
+        "obs-012"
+      ],
+      "reflection_cycle": 1,
+      "last_access_order": 137
+    },
+    {
+      "reflection_id": "ref-c02-01",
+      "generated_after_memory_id": "obs-047",
+      "reflection": "The relationship’s stated rejection of hierarchy is undermined by practical arrangements involving access, disclosure, scheduling, family participation, and decision-making, leaving Participant E with a persistent experience of secondary status and uncertainty about the future.",
+      "importance_1_to_10": 8,
+      "supporting_memory_ids": [
+        "ref-c01-05",
+        "obs-027",
+        "obs-033",
+        "obs-034",
+        "obs-025",
+        "obs-026"
+      ],
+      "reflection_cycle": 2,
+      "last_access_order": 143
+    },
+    {
+      "reflection_id": "ref-c02-02",
+      "generated_after_memory_id": "obs-047",
+      "reflection": "The boundary rupture remains a central organising force in the relationship: although Participant D forgives Participant C and Participant C becomes more attentive, the rupture continues to shape authority, trust, and later disagreements.",
+      "importance_1_to_10": 9,
+      "supporting_memory_ids": [
+        "ref-c01-02",
+        "obs-028",
+        "obs-032",
+        "obs-021",
+        "ref-c01-04",
+        "obs-022"
+      ],
+      "reflection_cycle": 2,
+      "last_access_order": 144
+    },
+    {
+      "reflection_id": "ref-c02-03",
+      "generated_after_memory_id": "obs-047",
+      "reflection": "The partners are caught in a reciprocal injury cycle in which Participant D communicates unresolved hurt through reduced care, control, or withdrawal, while Participant C experiences these responses as retaliation and tries to restore security through increased attentiveness.",
+      "importance_1_to_10": 7,
+      "supporting_memory_ids": [
+        "ref-c01-03",
+        "ref-c01-01",
+        "obs-032",
+        "obs-038",
+        "obs-021"
+      ],
+      "reflection_cycle": 2,
+      "last_access_order": 145
+    },
+    {
+      "reflection_id": "ref-c02-04",
+      "generated_after_memory_id": "obs-047",
+      "reflection": "Participant C’s internal insecurity and competing desire for a primary-style partnership contribute to difficulty advocating for the relationship, while Participant C’s avoidance of public labels and reduced affection intensify Participant E’s structural insecurity.",
+      "importance_1_to_10": 8,
+      "supporting_memory_ids": [
+        "obs-029",
+        "obs-046",
+        "obs-025",
+        "obs-026",
+        "obs-033"
+      ],
+      "reflection_cycle": 2,
+      "last_access_order": 146
+    },
+    {
+      "reflection_id": "ref-c02-05",
+      "generated_after_memory_id": "obs-047",
+      "reflection": "Efforts to include Participant E can generate new strain within the established pair: Participant C supports giving Participant E attention but experiences emotional distance from Participant D, while Participant D’s past catastrophe and resulting sensitivity to relational injury add further pressure to repair and commitment.",
+      "importance_1_to_10": 8,
+      "supporting_memory_ids": [
+        "obs-047",
+        "obs-035",
+        "obs-038",
+        "ref-c01-01"
+      ],
+      "reflection_cycle": 2,
+      "last_access_order": 147
+    }
+  ]
+}

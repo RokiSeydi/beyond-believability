@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Condition-Blind Voice Reviewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">DYAD EXPERIMENT</p>
+      <h1>Condition-Blind Voice Reviewer</h1>
+      <p class="subhead">Listen, adjudicate, autosave, and export—without revealing agent conditions.</p>
+    </div>
+    <div class="progress-wrap" aria-label="Review progress">
+      <div class="progress-label"><span id="progressText">0 / 0 reviewed</span><span id="progressPercent">0%</span></div>
+      <progress id="progressBar" value="0" max="100"></progress>
+    </div>
+  </header>
+
+  <main>
+    <section id="setupPanel" class="panel setup-panel">
+      <div class="panel-heading">
+        <div><p class="step">SETUP</p><h2>Load condition-blind files</h2></div>
+        <p class="privacy">Files remain in this browser. The condition key is neither requested nor accepted.</p>
+      </div>
+      <div class="file-grid">
+        <label class="file-card required"><span>1</span><strong>Blinded outputs</strong><small>blinded-outputs.json</small><input id="outputsFile" type="file" accept=".json,application/json" /></label>
+        <label class="file-card required"><span>2</span><strong>Sealed ground truth</strong><small>participant-…-sealed-ground-truth.json</small><input id="groundTruthFile" type="file" accept=".json,application/json" /></label>
+        <label class="file-card"><span>3</span><strong>Situations</strong><small>Optional but recommended</small><input id="situationsFile" type="file" accept=".json,application/json" /></label>
+        <label class="file-card"><span>4</span><strong>Proposed scores</strong><small>Optional AI-assisted score JSON</small><input id="scoresFile" type="file" accept=".json,application/json" /></label>
+      </div>
+      <div id="fileStatus" class="file-status" aria-live="polite">Choose at least the blinded outputs and sealed ground-truth files.</div>
+      <div class="setup-actions">
+        <button id="startButton" class="primary" disabled>Start review</button>
+        <label class="inline-file">Resume from exported review<input id="resumeFile" type="file" accept=".json,application/json" /></label>
+      </div>
+    </section>
+
+    <section id="reviewPanel" class="review-layout hidden" aria-live="polite">
+      <aside class="panel sidebar">
+        <div class="output-nav">
+          <button id="previousButton" aria-label="Previous output">←</button>
+          <div><span>OUTPUT</span><strong id="outputPosition">1 / 80</strong></div>
+          <button id="nextButton" aria-label="Next output">→</button>
+        </div>
+        <dl class="meta-list">
+          <div><dt>Blind ID</dt><dd id="blindId">—</dd></div>
+          <div><dt>Situation</dt><dd id="situationId">—</dd></div>
+          <div><dt>Decision</dt><dd id="decisionBadge" class="badge pending">Pending</dd></div>
+          <div><dt>Total</dt><dd id="totalScore">— / 12</dd></div>
+        </dl>
+
+        <div class="voice-settings">
+          <h3>Voice</h3>
+          <label>Voice<select id="voiceSelect"></select></label>
+          <label>Speed <span id="rateValue">1.05×</span><input id="rateInput" type="range" min="0.7" max="1.6" step="0.05" value="1.05" /></label>
+          <label class="check"><input id="autoReadInput" type="checkbox" checked /> Auto-read next dimension</label>
+          <label class="check"><input id="conciseInput" type="checkbox" checked /> Concise audio</label>
+        </div>
+
+        <div class="audio-actions">
+          <button id="readDimensionButton" class="primary">▶ Read comparison</button>
+          <button id="readAllButton">Read full output</button>
+          <button id="pauseButton">Pause</button>
+          <button id="stopButton">Stop</button>
+        </div>
+      </aside>
+
+      <section class="panel review-card">
+        <div class="context-block">
+          <div class="section-label">HELD-OUT SITUATION</div>
+          <p id="situationText">—</p>
+        </div>
+
+        <div class="dimension-tabs" id="dimensionTabs" role="tablist"></div>
+
+        <div class="comparison-grid">
+          <article class="evidence-card observed">
+            <div class="card-label">OBSERVED HUMAN RESPONSE</div>
+            <h2 id="observedTitle">Interpretation</h2>
+            <p id="observedText">—</p>
+          </article>
+          <article class="evidence-card predicted">
+            <div class="card-label">AGENT PREDICTION</div>
+            <h2 id="predictedTitle">Interpretation</h2>
+            <p id="predictedText">—</p>
+          </article>
+        </div>
+
+        <div class="score-section">
+          <div>
+            <div class="section-label">YOUR SCORE</div>
+            <p id="scorePrompt">How closely does the prediction match the evidence?</p>
+          </div>
+          <div class="score-buttons" role="radiogroup" aria-label="Fidelity score">
+            <button data-score="0"><strong>0</strong><span>No match</span></button>
+            <button data-score="1"><strong>1</strong><span>Partial</span></button>
+            <button data-score="2"><strong>2</strong><span>Strong</span></button>
+          </div>
+          <div id="proposedScore" class="proposed-score">Proposed: —</div>
+        </div>
+
+        <details class="details-block">
+          <summary>Full predicted response and uncertainty</summary>
+          <h3>Predicted response</h3><p id="fullPrediction">—</p>
+          <h3>Uncertainty</h3><p id="uncertaintyText">—</p>
+          <h3>Observed response summary</h3><p id="observedSummary">—</p>
+        </details>
+
+        <div class="quality-flags">
+          <div class="section-label">QUALITY FLAGS</div>
+          <div id="flagControls" class="flag-controls"></div>
+        </div>
+
+        <label class="notes-label">Researcher note<textarea id="researcherNote" rows="3" placeholder="Optional note explaining a changed score or uncertainty…"></textarea></label>
+
+        <div class="review-actions">
+          <button id="acceptButton" class="accept">A · Accept proposed scores</button>
+          <button id="uncertainButton">U · Mark uncertain</button>
+          <button id="saveNextButton" class="primary">Enter · Save & next</button>
+        </div>
+      </section>
+    </section>
+
+    <section id="exportPanel" class="panel export-panel hidden">
+      <div><p class="step">EXPORT</p><h2>Review checkpoint</h2><p>Autosave is active. Export regularly and freeze the final JSON before opening the condition key.</p></div>
+      <div class="export-actions">
+        <button id="exportJsonButton" class="primary">Export reviewed JSON</button>
+        <button id="exportCsvButton">Export CSV</button>
+        <button id="clearButton" class="danger">Clear local review</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Shortcuts:</strong> 0/1/2 score · A accept · U uncertain · R repeat · Space pause/resume · ←/→ dimension · Shift+←/→ output · Enter save & next</p>
+    <p id="saveStatus">Not started</p>
+  </footer>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

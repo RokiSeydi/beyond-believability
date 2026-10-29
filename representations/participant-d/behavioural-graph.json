@@ -1,0 +1,1256 @@
+{
+  "metadata": {
+    "title": "Triad 01 frozen longitudinal relational behaviour graph",
+    "evidence_window": "Episodes 1–7",
+    "held_out_window": "Episodes 8–9",
+    "leakage_rule": "No Episode 8 or Episode 9 response, retrospective explanation, outcome or formulation is included.",
+    "people": [
+      "Participant C",
+      "Participant D",
+      "Participant E"
+    ],
+    "relationship_system": "Established C–D partnership with D–E partnership and C–E metamour relation",
+    "generated_on": "2026-08-26",
+    "version": "1.0.0-public",
+    "methodology": "Episode-coded nodes are immutable observations. Canonical nodes synthesise repeated person and system mechanisms and link to supporting evidence.",
+    "condition": "behavioural_graph",
+    "target_participant": "Participant D",
+    "pseudonymised": true,
+    "identity_mapping_included": false,
+    "representation_rule": "Retrieve typed person-level and relational-system mechanisms with linked episode evidence; do not expose a separate chronological memory stream.",
+    "runtime_context_budget_approx_tokens": 3200,
+    "maximum_retrieved_canonical_nodes": 8,
+    "maximum_retrieved_evidence_nodes": 16,
+    "maximum_retrieved_edges": 20,
+    "experiment_id": "triad-01-participant-d-heldout-v1",
+    "development_window": "Episodes 1–7",
+    "heldout_window": "Episodes 8–9"
+  },
+  "nodes": [
+    {
+      "id": "ev-001",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 2, Part 1: Participant C accepts a work opportunity that would bring Participant C to the shared city several additional days each week and assumes Participant D will welcome the increased proximity.",
+      "detail": "Participant C accepts a work opportunity that would bring Participant C to the shared city several additional days each week and assumes Participant D will welcome the increased proximity.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-002",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 2, Part 1: Participant C feels hurt when Participant D does not immediately welcome the opportunity as expected.",
+      "detail": "Participant C feels hurt when Participant D does not immediately welcome the opportunity as expected.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-003",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant D",
+      "agent_text": "Episode 2, Part 1: Participant D is excited about increased time together but protests that a decision with major effects on Participant D was presented through logistics and assumptions rather than joint discussion.",
+      "detail": "Participant D is excited about increased time together but protests that a decision with major effects on Participant D was presented through logistics and assumptions rather than joint discussion.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-004",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 2, Part 1: Participant C hears Participant D's complaint as contradictory to Participant D's repeated requests for more time together.",
+      "detail": "Participant C hears Participant D's complaint as contradictory to Participant D's repeated requests for more time together.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-005",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Clinician",
+      "agent_text": "Episode 2, Part 1: The clinician observes that Participants C and D are speaking from different injuries and each wants the other to recognise what hurt.",
+      "detail": "The clinician observes that Participants C and D are speaking from different injuries and each wants the other to recognise what hurt.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-006",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant D",
+      "agent_text": "Episode 2, Part 1: Participant D wants to determine who initiated the conflict; the clinician redirects from fault-finding toward understanding incompatible perspectives.",
+      "detail": "Participant D wants to determine who initiated the conflict; the clinician redirects from fault-finding toward understanding incompatible perspectives.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-007",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant E",
+      "agent_text": "Episode 2, Part 1: Participant E reports having little experience of what the relationship with Participant D would be like if Participant C lived locally more consistently.",
+      "detail": "Participant E reports having little experience of what the relationship with Participant D would be like if Participant C lived locally more consistently.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-008",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant E",
+      "agent_text": "Episode 2, Part 1: Participant E says time with Participant D has often depended on Participant C being away and that plans could disappear when Participant C returned.",
+      "detail": "Participant E says time with Participant D has often depended on Participant C being away and that plans could disappear when Participant C returned.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-009",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant E",
+      "agent_text": "Episode 2, Part 1: Participant E describes a scheduled meeting being delayed because Participant D chose additional time with Participant C, making Participant E feel secondary and unable to orient toward the future.",
+      "detail": "Participant E describes a scheduled meeting being delayed because Participant D chose additional time with Participant C, making Participant E feel secondary and unable to orient toward the future.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-011",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Participant D",
+      "agent_text": "Episode 2, Part 1: Participant D describes the relationships through non-hierarchical or relationship-anarchy values in which each relationship defines its own terms.",
+      "detail": "Participant D describes the relationships through non-hierarchical or relationship-anarchy values in which each relationship defines its own terms.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-012",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 2,
+      "part": 1,
+      "speaker": "Clinician",
+      "agent_text": "Episode 2, Part 1: The clinician observes a tension between stated suspicion of hierarchy and practical differences in cohabitation, history, access and decision-making.",
+      "detail": "The clinician observes a tension between stated suspicion of hierarchy and practical differences in cohabitation, history, access and decision-making.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-013",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 3, Part 1: Participant C says an early conflict and a recent conflict shared the theme that Participant D experienced Participant C as less invested.",
+      "detail": "Participant C says an early conflict and a recent conflict shared the theme that Participant D experienced Participant C as less invested.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-014",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 3, Part 1: Participant C acknowledges not orienting toward Participant D in ways that made Participant D feel loved and prioritised.",
+      "detail": "Participant C acknowledges not orienting toward Participant D in ways that made Participant D feel loved and prioritised.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-015",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant D",
+      "agent_text": "Episode 3, Part 1: Participant D describes trying to be an exceptional partner while feeling below Participant C's work, performance practice and business commitments.",
+      "detail": "Participant D describes trying to be an exceptional partner while feeling below Participant C's work, performance practice and business commitments.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-016",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 3, Part 1: Participant C reports making deliberate efforts to prioritise time with Participant D and communicate love in ways Participant D recognises.",
+      "detail": "Participant C reports making deliberate efforts to prioritise time with Participant D and communicate love in ways Participant D recognises.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-017",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant D",
+      "agent_text": "Episode 3, Part 1: Participant D intentionally becomes less delicate and less enthusiastic so Participant C can experience something similar to Participant D's earlier hurt.",
+      "detail": "Participant D intentionally becomes less delicate and less enthusiastic so Participant C can experience something similar to Participant D's earlier hurt.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-018",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 3, Part 1: Participant C experiences Participant D's reduced care as a deliberate attempt to make Participant C hurt in the way Participant D hurt.",
+      "detail": "Participant C experiences Participant D's reduced care as a deliberate attempt to make Participant C hurt in the way Participant D hurt.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-021",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 3, Part 1: After the rupture, Participant C becomes more attentive in order to stop further harm and demonstrate that Participant D remains deeply important.",
+      "detail": "After the rupture, Participant C becomes more attentive in order to stop further harm and demonstrate that Participant D remains deeply important.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-022",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Participant D",
+      "agent_text": "Episode 3, Part 1: Participant D forgives Participant C and praises Participant C's bravery while continuing to organise later disagreements around the unresolved injury.",
+      "detail": "Participant D forgives Participant C and praises Participant C's bravery while continuing to organise later disagreements around the unresolved injury.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-023",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Clinician",
+      "agent_text": "Episode 3, Part 1: The clinician formulates Participant D as repeatedly approaching partners from an injured and neglected position, seeking recognition of being forgotten.",
+      "detail": "The clinician formulates Participant D as repeatedly approaching partners from an injured and neglected position, seeking recognition of being forgotten.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-024",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 3,
+      "part": 1,
+      "speaker": "Clinician",
+      "agent_text": "Episode 3, Part 1: The clinician asks Participant D to contain powerful feelings long enough to perceive new information about partners rather than only litigating injury.",
+      "detail": "The clinician asks Participant D to contain powerful feelings long enough to perceive new information about partners rather than only litigating injury.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-025",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 4,
+      "part": 1,
+      "speaker": "Participant E",
+      "agent_text": "Episode 4, Part 1: Participant E is invited to a family gathering but learns that the relationship with Participant D cannot be openly represented because Participant C has not disclosed non-monogamy to family.",
+      "detail": "Participant E is invited to a family gathering but learns that the relationship with Participant D cannot be openly represented because Participant C has not disclosed non-monogamy to family.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-027",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 4,
+      "part": 1,
+      "speaker": "Participant E",
+      "agent_text": "Episode 4, Part 1: Participant E says uncertainty about status affects planning, security and the ability to imagine a future with Participant D.",
+      "detail": "Participant E says uncertainty about status affects planning, security and the ability to imagine a future with Participant D.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-028",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 4,
+      "part": 1,
+      "speaker": "Participant C",
+      "agent_text": "Episode 4, Part 1: Participant C explains that after the boundary rupture, Participant D said Participant C had lost the right to determine the relationship's form.",
+      "detail": "Participant C explains that after the boundary rupture, Participant D said Participant C had lost the right to determine the relationship's form.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-030",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 4,
+      "part": 1,
+      "speaker": "Clinician",
+      "agent_text": "Episode 4, Part 1: The clinician observes that central decisions are still commonly made by Participants C and D, while Participant E must ask for access or changes.",
+      "detail": "The clinician observes that central decisions are still commonly made by Participants C and D, while Participant E must ask for access or changes.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-032",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 4,
+      "part": 1,
+      "speaker": "Participant D",
+      "agent_text": "Episode 4, Part 1: Participant D says the earlier boundary rupture makes Participant D want to give Participant C less control.",
+      "detail": "Participant D says the earlier boundary rupture makes Participant D want to give Participant C less control.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-033",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 4,
+      "part": 1,
+      "speaker": "Participant E",
+      "agent_text": "Episode 4, Part 1: Participant E points out that Participant C remains a major decision-maker in Participant E's relationship with Participant D, including scheduling and family access.",
+      "detail": "Participant E points out that Participant C remains a major decision-maker in Participant E's relationship with Participant D, including scheduling and family access.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-034",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 4,
+      "part": 1,
+      "speaker": "Clinician",
+      "agent_text": "Episode 4, Part 1: The clinician asks the established pair to recognise the difference between non-hierarchical language and Participant E's practical experience of unequal authority.",
+      "detail": "The clinician asks the established pair to recognise the difference between non-hierarchical language and Participant E's practical experience of unequal authority.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-035",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 5,
+      "part": 2,
+      "speaker": "Participant D",
+      "agent_text": "Episode 5, Part 2: Participant D recounts a past public catastrophe followed by investigation, blame, legal exposure, family rejection and loss of friendships.",
+      "detail": "Participant D recounts a past public catastrophe followed by investigation, blame, legal exposure, family rejection and loss of friendships.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-036",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 5,
+      "part": 2,
+      "speaker": "Participant D",
+      "agent_text": "Episode 5, Part 2: Participant D describes taking disproportionate responsibility to protect peers who faced additional vulnerability.",
+      "detail": "Participant D describes taking disproportionate responsibility to protect peers who faced additional vulnerability.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-037",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 5,
+      "part": 2,
+      "speaker": "Participant E",
+      "agent_text": "Episode 5, Part 2: Participant E says this history helps explain Participant D's intense orientation around blame, accountability, loyalty and betrayal.",
+      "detail": "Participant E says this history helps explain Participant D's intense orientation around blame, accountability, loyalty and betrayal.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-038",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 5,
+      "part": 2,
+      "speaker": "Participant E",
+      "agent_text": "Episode 5, Part 2: Participant E reports that Participant D can respond to relational injury with abrupt withdrawal, global statements and a sense that repair is impossible.",
+      "detail": "Participant E reports that Participant D can respond to relational injury with abrupt withdrawal, global statements and a sense that repair is impossible.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-039",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 5,
+      "part": 2,
+      "speaker": "Clinician",
+      "agent_text": "Episode 5, Part 2: The clinician proposes that present transgressions can receive a larger package of fury carried from Participant D's earlier experience of being made a villain.",
+      "detail": "The clinician proposes that present transgressions can receive a larger package of fury carried from Participant D's earlier experience of being made a villain.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-040",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 5,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 5, Part 2: Participant C is present while Participant D's historical relationship to blame is connected to current relational intensity.",
+      "detail": "Participant C is present while Participant D's historical relationship to blame is connected to current relational intensity.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-042",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 6, Part 2: Participant C lacked confidence that Participant D could tolerate Participant C's complaints because the pair had not successfully worked through them.",
+      "detail": "Participant C lacked confidence that Participant D could tolerate Participant C's complaints because the pair had not successfully worked through them.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-045",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Clinician",
+      "agent_text": "Episode 6, Part 2: The clinician observes that distance, work travel and surface agreeableness allow Participant C to create relatively little overt conflict.",
+      "detail": "The clinician observes that distance, work travel and surface agreeableness allow Participant C to create relatively little overt conflict.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-046",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 6, Part 2: At a public event, Participant C avoids clear relationship labels and becomes less physically affectionate with Participant D when Participant E is present.",
+      "detail": "At a public event, Participant C avoids clear relationship labels and becomes less physically affectionate with Participant D when Participant E is present.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-047",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 6, Part 2: Participant C supports Participant D giving attention to Participant E but later notices the emotional toll and feels more distant from Participant D by the end of the day.",
+      "detail": "Participant C supports Participant D giving attention to Participant E but later notices the emotional toll and feels more distant from Participant D by the end of the day.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-048",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 6, Part 2: When Participant D asks whether Participant C can be flexible if boundaries are challenged, Participant C feels trapped because Participant C already struggles to advocate for personal needs.",
+      "detail": "When Participant D asks whether Participant C can be flexible if boundaries are challenged, Participant C feels trapped because Participant C already struggles to advocate for personal needs.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-049",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 6, Part 2: Participant C worries about living according to Participant D's ideas of what is right rather than identifying and expressing Participant C's own position.",
+      "detail": "Participant C worries about living according to Participant D's ideas of what is right rather than identifying and expressing Participant C's own position.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-050",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 6, Part 2: While describing disagreement, Participant C monitors Participant D's facial expression and fears having disappointed Participant D.",
+      "detail": "While describing disagreement, Participant C monitors Participant D's facial expression and fears having disappointed Participant D.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-051",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Clinician",
+      "agent_text": "Episode 6, Part 2: The clinician formulates Participant C as suppressing needs and experiencing ordinary disagreement as potentially displeasing or disappointing Participant D.",
+      "detail": "The clinician formulates Participant C as suppressing needs and experiencing ordinary disagreement as potentially displeasing or disappointing Participant D.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-052",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Clinician",
+      "agent_text": "Episode 6, Part 2: The clinician suggests that the system's idealism can make a direct no feel politically or relationally unacceptable.",
+      "detail": "The clinician suggests that the system's idealism can make a direct no feel politically or relationally unacceptable.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "ev-053",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Participant C",
+      "agent_text": "Episode 6, Part 2: Participant C says Participant D's relationship with Participant E has become more significant than Participant C originally expected.",
+      "detail": "Participant C says Participant D's relationship with Participant E has become more significant than Participant C originally expected.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "ev-055",
+      "layer": "episode_evidence",
+      "node_type": "observed_or_reported_event",
+      "episode": 6,
+      "part": 2,
+      "speaker": "Clinician",
+      "agent_text": "Episode 6, Part 2: The clinician notes that both Participants C and E are beginning, in different ways, to state personal needs and limits within a system that finds this threatening.",
+      "detail": "The clinician notes that both Participants C and E are beginning, in different ways, to state personal needs and limits within a system that finds this threatening.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "pd-d01",
+      "layer": "canonical_mechanism",
+      "node_type": "planning_as_care",
+      "agent_text": "Planning, consultation and initiative function as evidence that D matters.",
+      "detail": "Planning, consultation and initiative function as evidence that D matters.",
+      "evidence_status": "longitudinal_synthesis"
+    },
+    {
+      "id": "pd-d02",
+      "layer": "canonical_mechanism",
+      "node_type": "neglect_sensitivity",
+      "agent_text": "Being forgotten or deprioritised readily activates hurt and resentment.",
+      "detail": "Being forgotten or deprioritised readily activates hurt and resentment.",
+      "evidence_status": "longitudinal_synthesis"
+    },
+    {
+      "id": "pd-d03",
+      "layer": "canonical_mechanism",
+      "node_type": "blame_amplification",
+      "agent_text": "Perceived betrayal can activate historically enlarged blame and loyalty demands.",
+      "detail": "Perceived betrayal can activate historically enlarged blame and loyalty demands.",
+      "evidence_status": "longitudinal_synthesis"
+    },
+    {
+      "id": "pd-d04",
+      "layer": "canonical_mechanism",
+      "node_type": "withdrawal_after_injury",
+      "agent_text": "When repair feels inadequate, D may withdraw or declare apology meaningless.",
+      "detail": "When repair feels inadequate, D may withdraw or declare apology meaningless.",
+      "evidence_status": "longitudinal_synthesis"
+    },
+    {
+      "id": "pd-d05",
+      "layer": "canonical_mechanism",
+      "node_type": "repair_capacity",
+      "agent_text": "D can praise bravery, forgive, express love and seek practical repair.",
+      "detail": "D can praise bravery, forgive, express love and seek practical repair.",
+      "evidence_status": "longitudinal_synthesis"
+    },
+    {
+      "id": "pd-d06",
+      "layer": "canonical_mechanism",
+      "node_type": "anger_containment",
+      "agent_text": "D can inhibit anger when recognising that it would intensify a partner's block.",
+      "detail": "D can inhibit anger when recognising that it would intensify a partner's block.",
+      "evidence_status": "longitudinal_synthesis"
+    },
+    {
+      "id": "sys-d01",
+      "layer": "canonical_mechanism",
+      "node_type": "established_pair_power",
+      "agent_text": "The established C–D partnership retains historical and practical decision power.",
+      "detail": "The established C–D partnership retains historical and practical decision power.",
+      "evidence_status": "longitudinal_synthesis"
+    },
+    {
+      "id": "sys-d02",
+      "layer": "canonical_mechanism",
+      "node_type": "ideology_structure_gap",
+      "agent_text": "Non-hierarchical language coexists with unequal security, access and decision rights.",
+      "detail": "Non-hierarchical language coexists with unequal security, access and decision rights.",
+      "evidence_status": "longitudinal_synthesis"
+    }
+  ],
+  "edges": [
+    {
+      "id": "participant-d-edge-001",
+      "source": "ev-003",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-002",
+      "source": "ev-003",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-003",
+      "source": "ev-003",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-004",
+      "source": "ev-003",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-005",
+      "source": "ev-003",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-006",
+      "source": "ev-003",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-007",
+      "source": "ev-003",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-008",
+      "source": "ev-003",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-003 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-009",
+      "source": "ev-006",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-010",
+      "source": "ev-006",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-011",
+      "source": "ev-006",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-012",
+      "source": "ev-006",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-013",
+      "source": "ev-006",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-014",
+      "source": "ev-006",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-015",
+      "source": "ev-006",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-016",
+      "source": "ev-006",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-006 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-017",
+      "source": "ev-011",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-018",
+      "source": "ev-011",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-019",
+      "source": "ev-011",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-020",
+      "source": "ev-011",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-021",
+      "source": "ev-011",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-022",
+      "source": "ev-011",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-023",
+      "source": "ev-011",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-024",
+      "source": "ev-011",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-011 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-025",
+      "source": "ev-015",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-026",
+      "source": "ev-015",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-027",
+      "source": "ev-015",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-028",
+      "source": "ev-015",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-029",
+      "source": "ev-015",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-030",
+      "source": "ev-015",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-031",
+      "source": "ev-015",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-032",
+      "source": "ev-015",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-015 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-033",
+      "source": "ev-017",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-034",
+      "source": "ev-017",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-035",
+      "source": "ev-017",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-036",
+      "source": "ev-017",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-037",
+      "source": "ev-017",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-038",
+      "source": "ev-017",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-039",
+      "source": "ev-017",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-040",
+      "source": "ev-017",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-017 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-041",
+      "source": "ev-021",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-021 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-042",
+      "source": "ev-022",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-043",
+      "source": "ev-022",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-044",
+      "source": "ev-022",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-045",
+      "source": "ev-022",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-046",
+      "source": "ev-022",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-047",
+      "source": "ev-022",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-048",
+      "source": "ev-022",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-049",
+      "source": "ev-022",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-022 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-050",
+      "source": "ev-023",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-023 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "participant-d-edge-051",
+      "source": "ev-024",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-024 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "participant-d-edge-052",
+      "source": "ev-024",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-024 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "participant-d-edge-053",
+      "source": "ev-027",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-027 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-054",
+      "source": "ev-028",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-028 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-055",
+      "source": "ev-032",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-056",
+      "source": "ev-032",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-057",
+      "source": "ev-032",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-058",
+      "source": "ev-032",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-059",
+      "source": "ev-032",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-060",
+      "source": "ev-032",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-061",
+      "source": "ev-032",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-062",
+      "source": "ev-032",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-032 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-063",
+      "source": "ev-034",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-034 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "clinician_formulation"
+    },
+    {
+      "id": "participant-d-edge-064",
+      "source": "ev-035",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-065",
+      "source": "ev-035",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-066",
+      "source": "ev-035",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-067",
+      "source": "ev-035",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-068",
+      "source": "ev-035",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-069",
+      "source": "ev-035",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-070",
+      "source": "ev-035",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-071",
+      "source": "ev-035",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-035 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-072",
+      "source": "ev-036",
+      "target": "pd-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to pd-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-073",
+      "source": "ev-036",
+      "target": "pd-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to pd-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-074",
+      "source": "ev-036",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-075",
+      "source": "ev-036",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-076",
+      "source": "ev-036",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-077",
+      "source": "ev-036",
+      "target": "pd-d06",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to pd-d06.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-078",
+      "source": "ev-036",
+      "target": "sys-d01",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to sys-d01.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-079",
+      "source": "ev-036",
+      "target": "sys-d02",
+      "relation": "supports",
+      "relation_sentence": "ev-036 provides development-window evidence relevant to sys-d02.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-080",
+      "source": "ev-037",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-037 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-081",
+      "source": "ev-038",
+      "target": "pd-d04",
+      "relation": "supports",
+      "relation_sentence": "ev-038 provides development-window evidence relevant to pd-d04.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-082",
+      "source": "ev-038",
+      "target": "pd-d05",
+      "relation": "supports",
+      "relation_sentence": "ev-038 provides development-window evidence relevant to pd-d05.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    },
+    {
+      "id": "participant-d-edge-083",
+      "source": "ev-040",
+      "target": "pd-d03",
+      "relation": "supports",
+      "relation_sentence": "ev-040 provides development-window evidence relevant to pd-d03.",
+      "evidence_status": "direct_statement_or_observed_dialogue"
+    }
+  ]
+}

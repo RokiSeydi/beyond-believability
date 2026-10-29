@@ -1,0 +1,562 @@
+[
+  {
+    "blind_id": "B001-4c2c61",
+    "request_id": "behavioural_graph__t01-pc-h02__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B002-6a0783",
+    "request_id": "memory_reflection__t01-pc-h01__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B003-e72ccd",
+    "request_id": "behavioural_graph__t01-pc-h01__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B004-bcf4f0",
+    "request_id": "memory_reflection__t01-pc-h01__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B005-3b4c5e",
+    "request_id": "minimal_persona__t01-pc-h01__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B006-8ba847",
+    "request_id": "memory_reflection__t01-pc-h01__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B007-d5dd7c",
+    "request_id": "memory_reflection__t01-pc-h03__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B008-72b3e5",
+    "request_id": "behavioural_graph__t01-pc-h03__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B009-8e4ba8",
+    "request_id": "hybrid_memory_graph__t01-pc-h03__r1",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B010-609aea",
+    "request_id": "behavioural_graph__t01-pc-h04__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B011-8e5cff",
+    "request_id": "hybrid_memory_graph__t01-pc-h01__r1",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B012-7aa921",
+    "request_id": "minimal_persona__t01-pc-h03__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B013-01a7fe",
+    "request_id": "hybrid_memory_graph__t01-pc-h03__r4",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B014-01f794",
+    "request_id": "behavioural_graph__t01-pc-h04__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B015-338adc",
+    "request_id": "memory_reflection__t01-pc-h02__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B016-f51c2b",
+    "request_id": "memory_reflection__t01-pc-h04__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B017-d6595c",
+    "request_id": "behavioural_graph__t01-pc-h01__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B018-8fae6e",
+    "request_id": "minimal_persona__t01-pc-h04__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B019-d1cf71",
+    "request_id": "memory_reflection__t01-pc-h03__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h03",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B020-d041c0",
+    "request_id": "minimal_persona__t01-pc-h01__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B021-4efb8f",
+    "request_id": "memory_reflection__t01-pc-h04__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h04",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B022-e681c3",
+    "request_id": "hybrid_memory_graph__t01-pc-h02__r3",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B023-f06230",
+    "request_id": "hybrid_memory_graph__t01-pc-h04__r2",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B024-9fab8d",
+    "request_id": "hybrid_memory_graph__t01-pc-h04__r1",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B025-47dbd0",
+    "request_id": "behavioural_graph__t01-pc-h04__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B026-f9df09",
+    "request_id": "minimal_persona__t01-pc-h01__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B027-a376ed",
+    "request_id": "behavioural_graph__t01-pc-h01__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B028-e3317e",
+    "request_id": "behavioural_graph__t01-pc-h01__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B029-95da81",
+    "request_id": "behavioural_graph__t01-pc-h03__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B030-94a58d",
+    "request_id": "hybrid_memory_graph__t01-pc-h02__r5",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B031-272900",
+    "request_id": "minimal_persona__t01-pc-h03__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h03",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B032-9073e8",
+    "request_id": "memory_reflection__t01-pc-h01__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B033-f83153",
+    "request_id": "behavioural_graph__t01-pc-h04__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B034-e53a3c",
+    "request_id": "minimal_persona__t01-pc-h01__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B035-ace65e",
+    "request_id": "hybrid_memory_graph__t01-pc-h04__r5",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B036-2f7a0c",
+    "request_id": "memory_reflection__t01-pc-h04__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B037-e89c7f",
+    "request_id": "minimal_persona__t01-pc-h03__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B038-088d44",
+    "request_id": "hybrid_memory_graph__t01-pc-h02__r4",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B039-f99c9b",
+    "request_id": "hybrid_memory_graph__t01-pc-h03__r5",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B040-8058c5",
+    "request_id": "minimal_persona__t01-pc-h02__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B041-619b73",
+    "request_id": "behavioural_graph__t01-pc-h02__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B042-6590bc",
+    "request_id": "memory_reflection__t01-pc-h02__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B043-9ffabe",
+    "request_id": "hybrid_memory_graph__t01-pc-h02__r2",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B044-e79869",
+    "request_id": "minimal_persona__t01-pc-h04__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B045-ed4100",
+    "request_id": "memory_reflection__t01-pc-h02__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B046-dd5954",
+    "request_id": "memory_reflection__t01-pc-h03__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B047-bad1d0",
+    "request_id": "hybrid_memory_graph__t01-pc-h01__r4",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B048-ba8c27",
+    "request_id": "memory_reflection__t01-pc-h04__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B049-57865e",
+    "request_id": "minimal_persona__t01-pc-h02__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B050-32f1be",
+    "request_id": "hybrid_memory_graph__t01-pc-h01__r5",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B051-8ed63e",
+    "request_id": "memory_reflection__t01-pc-h04__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B052-ec2be0",
+    "request_id": "hybrid_memory_graph__t01-pc-h04__r3",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B053-2fc60e",
+    "request_id": "hybrid_memory_graph__t01-pc-h02__r1",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B054-3ac27f",
+    "request_id": "behavioural_graph__t01-pc-h04__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B055-690020",
+    "request_id": "minimal_persona__t01-pc-h02__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B056-525b2f",
+    "request_id": "minimal_persona__t01-pc-h04__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B057-13b439",
+    "request_id": "hybrid_memory_graph__t01-pc-h01__r3",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B058-5fc489",
+    "request_id": "behavioural_graph__t01-pc-h02__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B059-391591",
+    "request_id": "minimal_persona__t01-pc-h01__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B060-bec8d0",
+    "request_id": "minimal_persona__t01-pc-h04__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B061-c5a486",
+    "request_id": "memory_reflection__t01-pc-h03__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B062-fbeab7",
+    "request_id": "hybrid_memory_graph__t01-pc-h03__r2",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B063-262979",
+    "request_id": "minimal_persona__t01-pc-h04__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h04",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B064-1bd47c",
+    "request_id": "minimal_persona__t01-pc-h02__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B065-d85407",
+    "request_id": "behavioural_graph__t01-pc-h03__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B066-63b325",
+    "request_id": "behavioural_graph__t01-pc-h02__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B067-fc5e11",
+    "request_id": "memory_reflection__t01-pc-h03__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B068-bf8a79",
+    "request_id": "hybrid_memory_graph__t01-pc-h01__r2",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B069-a31f1f",
+    "request_id": "hybrid_memory_graph__t01-pc-h03__r3",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B070-7ececa",
+    "request_id": "memory_reflection__t01-pc-h02__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B071-608055",
+    "request_id": "behavioural_graph__t01-pc-h03__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B072-c154c1",
+    "request_id": "behavioural_graph__t01-pc-h01__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B073-4b3fb4",
+    "request_id": "minimal_persona__t01-pc-h03__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B074-0b3826",
+    "request_id": "memory_reflection__t01-pc-h01__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B075-e9bc00",
+    "request_id": "minimal_persona__t01-pc-h03__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B076-32089d",
+    "request_id": "memory_reflection__t01-pc-h02__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pc-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B077-e5541f",
+    "request_id": "minimal_persona__t01-pc-h02__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pc-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B078-10b65a",
+    "request_id": "behavioural_graph__t01-pc-h02__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B079-081cdf",
+    "request_id": "hybrid_memory_graph__t01-pc-h04__r4",
+    "condition": "hybrid_memory_graph",
+    "situation_id": "t01-pc-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B080-4dd647",
+    "request_id": "behavioural_graph__t01-pc-h03__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pc-h03",
+    "repetition": 2
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "condition": "hybrid_memory_graph",
+    "participant": "Participant A",
+    "partner": "Participant B",
+    "relationship_system": "Dyad 01",
+    "development_window": "Episodes 1–7",
+    "held_out_window": "Episodes 8–9",
+    "representation_rule": "Combine chronological memory retrieval with evidence-linked behavioural-graph retrieval without exceeding the common runtime context budget.",
+    "version": "1.0.0",
+    "pseudonymised": true
+  },
+  "runtime_retrieval": {
+    "total_context_budget_approx_tokens": 3200,
+    "memory_allocation_approx_tokens": 1400,
+    "graph_allocation_approx_tokens": 1800,
+    "maximum_retrieved_memories": 8,
+    "maximum_retrieved_reflections": 3,
+    "maximum_retrieved_canonical_nodes": 5,
+    "maximum_retrieved_evidence_nodes": 8,
+    "maximum_retrieved_edges": 10,
+    "deduplicate_episode_evidence": true,
+    "ranking_rule": "Within each source use its native retrieval score; preserve graph evidence status and chronological memory provenance."
+  },
+  "sources": {
+    "memory_reflection_file": "participant-a/memory-reflection.json",
+    "behavioural_graph_file": "participant-a/behavioural-graph.json"
+  }
+}

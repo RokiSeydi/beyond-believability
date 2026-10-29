@@ -1,0 +1,562 @@
+[
+  {
+    "blind_id": "B001-30d73c",
+    "request_id": "minimal_persona__t01-pd-h01__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B002-417550",
+    "request_id": "behavioural_graph__t01-pd-h02__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B003-1db4c7",
+    "request_id": "minimal_persona__t01-pd-h02__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B004-c3ab96",
+    "request_id": "minimal_persona__t01-pd-h01__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B005-f5586a",
+    "request_id": "minimal_persona__t01-pd-h01__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B006-b8d0d8",
+    "request_id": "memory_reflection__t01-pd-h01__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B007-f399b4",
+    "request_id": "behavioural_graph__t01-pd-h04__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B008-c551c6",
+    "request_id": "hybrid__t01-pd-h01__r2",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B009-072f77",
+    "request_id": "memory_reflection__t01-pd-h03__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B010-b55222",
+    "request_id": "minimal_persona__t01-pd-h01__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B011-734fe2",
+    "request_id": "minimal_persona__t01-pd-h02__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B012-42d66d",
+    "request_id": "minimal_persona__t01-pd-h04__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B013-8eb5ec",
+    "request_id": "minimal_persona__t01-pd-h01__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B014-1529f3",
+    "request_id": "behavioural_graph__t01-pd-h04__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B015-b5fa17",
+    "request_id": "behavioural_graph__t01-pd-h03__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B016-f6c731",
+    "request_id": "hybrid__t01-pd-h01__r5",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B017-283f52",
+    "request_id": "minimal_persona__t01-pd-h02__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B018-4ed107",
+    "request_id": "behavioural_graph__t01-pd-h01__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B019-a0d3d3",
+    "request_id": "behavioural_graph__t01-pd-h03__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h03",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B020-a48c74",
+    "request_id": "behavioural_graph__t01-pd-h03__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B021-5b6d7d",
+    "request_id": "hybrid__t01-pd-h04__r2",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h04",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B022-c464bb",
+    "request_id": "hybrid__t01-pd-h04__r1",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B023-3bceb3",
+    "request_id": "hybrid__t01-pd-h02__r4",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B024-270706",
+    "request_id": "hybrid__t01-pd-h01__r4",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B025-9585b1",
+    "request_id": "memory_reflection__t01-pd-h03__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B026-7193ca",
+    "request_id": "minimal_persona__t01-pd-h04__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B027-577ab7",
+    "request_id": "memory_reflection__t01-pd-h02__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B028-c23d57",
+    "request_id": "minimal_persona__t01-pd-h04__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B029-bec518",
+    "request_id": "minimal_persona__t01-pd-h03__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h03",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B030-1e6e1c",
+    "request_id": "memory_reflection__t01-pd-h02__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B031-9af649",
+    "request_id": "behavioural_graph__t01-pd-h02__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B032-6335d6",
+    "request_id": "behavioural_graph__t01-pd-h02__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B033-593a1f",
+    "request_id": "behavioural_graph__t01-pd-h01__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B034-2537f7",
+    "request_id": "minimal_persona__t01-pd-h04__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B035-a8a800",
+    "request_id": "memory_reflection__t01-pd-h04__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B036-dfad0a",
+    "request_id": "hybrid__t01-pd-h03__r1",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B037-470dde",
+    "request_id": "memory_reflection__t01-pd-h02__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B038-c87ad6",
+    "request_id": "memory_reflection__t01-pd-h01__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B039-d6f9e3",
+    "request_id": "behavioural_graph__t01-pd-h04__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B040-f8a4fa",
+    "request_id": "behavioural_graph__t01-pd-h01__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B041-2396e6",
+    "request_id": "hybrid__t01-pd-h02__r1",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B042-c9a6c8",
+    "request_id": "hybrid__t01-pd-h04__r3",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B043-59e25c",
+    "request_id": "behavioural_graph__t01-pd-h02__r1",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B044-7b98d1",
+    "request_id": "memory_reflection__t01-pd-h04__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h04",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B045-772729",
+    "request_id": "hybrid__t01-pd-h02__r3",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h02",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B046-ecd058",
+    "request_id": "behavioural_graph__t01-pd-h01__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B047-e323c2",
+    "request_id": "behavioural_graph__t01-pd-h03__r3",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B048-b2505c",
+    "request_id": "behavioural_graph__t01-pd-h02__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h02",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B049-6b7f49",
+    "request_id": "minimal_persona__t01-pd-h03__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h03",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B050-e00c66",
+    "request_id": "hybrid__t01-pd-h04__r4",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h04",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B051-ff39a3",
+    "request_id": "behavioural_graph__t01-pd-h04__r5",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B052-25f215",
+    "request_id": "hybrid__t01-pd-h03__r3",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B053-2aa77b",
+    "request_id": "hybrid__t01-pd-h02__r2",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B054-9f57ed",
+    "request_id": "behavioural_graph__t01-pd-h01__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h01",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B055-956a85",
+    "request_id": "hybrid__t01-pd-h03__r2",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h03",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B056-b62e51",
+    "request_id": "memory_reflection__t01-pd-h02__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B057-8da512",
+    "request_id": "behavioural_graph__t01-pd-h04__r2",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h04",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B058-49281e",
+    "request_id": "memory_reflection__t01-pd-h01__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h01",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B059-91ac80",
+    "request_id": "memory_reflection__t01-pd-h01__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B060-248579",
+    "request_id": "minimal_persona__t01-pd-h02__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h02",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B061-f5af2e",
+    "request_id": "minimal_persona__t01-pd-h03__r4",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B062-67d8f1",
+    "request_id": "memory_reflection__t01-pd-h02__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B063-1625bd",
+    "request_id": "memory_reflection__t01-pd-h01__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h01",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B064-38b0f6",
+    "request_id": "memory_reflection__t01-pd-h03__r4",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B065-c36def",
+    "request_id": "minimal_persona__t01-pd-h02__r1",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h02",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B066-71b093",
+    "request_id": "minimal_persona__t01-pd-h03__r3",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B067-167884",
+    "request_id": "hybrid__t01-pd-h04__r5",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B068-4b74e4",
+    "request_id": "memory_reflection__t01-pd-h04__r5",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h04",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B069-673b31",
+    "request_id": "minimal_persona__t01-pd-h03__r5",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B070-4e5413",
+    "request_id": "memory_reflection__t01-pd-h03__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h03",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B071-2c6bc0",
+    "request_id": "memory_reflection__t01-pd-h03__r3",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h03",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B072-a16851",
+    "request_id": "hybrid__t01-pd-h02__r5",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h02",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B073-ae4405",
+    "request_id": "memory_reflection__t01-pd-h04__r1",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h04",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B074-ea33da",
+    "request_id": "hybrid__t01-pd-h01__r3",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h01",
+    "repetition": 3
+  },
+  {
+    "blind_id": "B075-de3beb",
+    "request_id": "hybrid__t01-pd-h01__r1",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h01",
+    "repetition": 1
+  },
+  {
+    "blind_id": "B076-25013e",
+    "request_id": "hybrid__t01-pd-h03__r4",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B077-739ccd",
+    "request_id": "hybrid__t01-pd-h03__r5",
+    "condition": "hybrid",
+    "situation_id": "t01-pd-h03",
+    "repetition": 5
+  },
+  {
+    "blind_id": "B078-708cc6",
+    "request_id": "minimal_persona__t01-pd-h04__r2",
+    "condition": "minimal_persona",
+    "situation_id": "t01-pd-h04",
+    "repetition": 2
+  },
+  {
+    "blind_id": "B079-77618f",
+    "request_id": "behavioural_graph__t01-pd-h03__r4",
+    "condition": "behavioural_graph",
+    "situation_id": "t01-pd-h03",
+    "repetition": 4
+  },
+  {
+    "blind_id": "B080-0edc8f",
+    "request_id": "memory_reflection__t01-pd-h04__r2",
+    "condition": "memory_reflection",
+    "situation_id": "t01-pd-h04",
+    "repetition": 2
+  }
+]

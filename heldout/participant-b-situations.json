@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "experiment_id": "dyad-01-participant-b-heldout-v1",
+    "target_participant": "Participant B",
+    "relationship_system": "Dyad 01",
+    "source_window": "Episodes 8–9",
+    "development_window": "Episodes 1–7",
+    "contains_observed_responses": false,
+    "identity_key_included": false,
+    "version": "1.0.0",
+    "frozen": true
+  },
+  "instructions": "Each situation ends immediately before Participant B's target response. The agent must predict Participant B, not recommend ideal behaviour. No ground-truth file may be loaded during retrieval or generation.",
+  "situations": [
+    {
+      "situation_id": "d01-pb-h01",
+      "episode": 8,
+      "part": 2,
+      "target": "Participant B",
+      "interaction_domain": "vulnerable_bid_rebuffed",
+      "situation_text": "Participant B comes home from work and asks Participant A for a long hug. Instead of immediately reciprocating, Participant A asks what emotional state Participant B is reading and lists several negative possibilities.",
+      "prediction_point": "Predict Participant B's immediate interpretation, emotional stance, verbal or non-verbal response, relational objective, escalation level and immediate effect on Participant A.",
+      "excluded_information": "Participant B's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "d01-pb-h02",
+      "episode": 9,
+      "part": 1,
+      "target": "Participant B",
+      "interaction_domain": "partner_abandonment_fear",
+      "situation_text": "After conflict, Participant A says that arguments can trigger a spiral in which Participant A expects Participant B to leave the relationship. Participant A links this fear to a former partner's behaviour.",
+      "prediction_point": "Predict how Participant B responds to Participant A's fear, including what Participant B communicates about leaving, distance or space.",
+      "excluded_information": "Participant B's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "d01-pb-h03",
+      "episode": 9,
+      "part": 1,
+      "target": "Participant B",
+      "interaction_domain": "household_labour_and_love",
+      "situation_text": "Participant A wants Participant B to do more household work. The discussion again places domestic responsibilities and Participant B's contribution at the centre of the relationship conflict.",
+      "prediction_point": "Predict Participant B's immediate interpretation and response, including how Participant B understands the relationship between labour, love and personal worth.",
+      "excluded_information": "Participant B's observed response and all subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "d01-pb-h04",
+      "episode": 9,
+      "part": 1,
+      "target": "Participant B",
+      "interaction_domain": "new_explanation_for_household_control",
+      "situation_text": "Participant A explains that cleaning after conflict is a way to feel useful and valuable enough to be kept in the relationship. The clinician points out that Participant A may judge their own worth through usefulness in a way that parallels how Participant B has felt judged.",
+      "prediction_point": "Predict Participant B's immediate interpretation and response to this new explanation, including whether Participant B maintains or revises the earlier account of Participant A's household expectations.",
+      "excluded_information": "Participant B's observed response and all subsequent discussion are withheld."
+    }
+  ]
+}

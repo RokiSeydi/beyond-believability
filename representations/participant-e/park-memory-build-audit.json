@@ -1,0 +1,310 @@
+{
+  "created_at": "2026-08-27T23:50:23.703Z",
+  "method": "Park_et_al_style_memory_construction",
+  "adaptations": [
+    "Static episode order substitutes for continuously advancing sandbox time.",
+    "Park et al.'s 0.995 access-recency decay is applied over discrete record and retrieval events rather than sandbox game hours.",
+    "A fixed top-15 records is retrieved per reflection question because the paper does not prescribe a unique count for this corpus.",
+    "Reflection accumulation resets after each triggered cycle."
+  ],
+  "prompts": {
+    "importance_system": "Rate the likely poignancy or importance of one memory for the person experiencing it. Use an integer from 1 to 10, where 1 is purely mundane (for example, brushing teeth or making a bed) and 10 is extremely poignant (for example, a breakup or college acceptance). Assess only the supplied memory. Do not infer missing facts or use external information."
+  },
+  "requested_models": {
+    "generation": "gpt-5.6-luna",
+    "embedding": "text-embedding-ada-002"
+  },
+  "observation_count": 16,
+  "reflection_count": 0,
+  "reflection_cycles": [],
+  "api_log": [
+    {
+      "label": "importance:participant-e-m001",
+      "endpoint": "responses",
+      "response_id": "resp_0f48dfe3696268b6016a90cd30be1c87d2aa1e21141156ad6a",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-e-m002",
+      "endpoint": "responses",
+      "response_id": "resp_0fbe63f66e1166ba016a90cd317eb087d2a086784c17f75d60",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:participant-e-m003",
+      "endpoint": "responses",
+      "response_id": "resp_0427eb27b775c715016a90cd3264f087d2941ec926082a27d2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:participant-e-m004",
+      "endpoint": "responses",
+      "response_id": "resp_01b457034be0ae16016a90cd3336ac87d2897fd22ff42c528c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 155,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 170
+      }
+    },
+    {
+      "label": "importance:participant-e-m005",
+      "endpoint": "responses",
+      "response_id": "resp_029a356071ee3b21016a90cd343a5487d2a1a18dbcd7e798d4",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:participant-e-m006",
+      "endpoint": "responses",
+      "response_id": "resp_08c30248b9952ba3016a90cd35081087d2af0d74fe68ebc773",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 157,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 172
+      }
+    },
+    {
+      "label": "importance:participant-e-m007",
+      "endpoint": "responses",
+      "response_id": "resp_044e325c78b327e6016a90cd3639e487d29a0486b3ea0e32f4",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:participant-e-m008",
+      "endpoint": "responses",
+      "response_id": "resp_0059539f6299111c016a90cd373b3887d2adeee8712b520d13",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:participant-e-m009",
+      "endpoint": "responses",
+      "response_id": "resp_0df5a2050e08d724016a90cd38356087d2a2b340a375ccf243",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:participant-e-m010",
+      "endpoint": "responses",
+      "response_id": "resp_05e78440198ba5af016a90cd38f15c87d2a3d891ef98b2e38f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 151,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 166
+      }
+    },
+    {
+      "label": "importance:participant-e-m011",
+      "endpoint": "responses",
+      "response_id": "resp_015156de3e4cf759016a90cd39fec887d293fec341b35724d9",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:participant-e-m012",
+      "endpoint": "responses",
+      "response_id": "resp_01de852ccf692c71016a90cd3b0fc087d2a109899d10c56bf7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:participant-e-m013",
+      "endpoint": "responses",
+      "response_id": "resp_08c47999a02ac52f016a90cd3bfa4c87d2844e51df5af39e00",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:participant-e-m014",
+      "endpoint": "responses",
+      "response_id": "resp_06040cc82c2f5a89016a90cd3cf13087d29c0965aee3c58151",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:participant-e-m015",
+      "endpoint": "responses",
+      "response_id": "resp_065c0e999048a2f6016a90cd3dfc3887d2860f63d36f963ab0",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:participant-e-m016",
+      "endpoint": "responses",
+      "response_id": "resp_0d39f7372a1c259d016a90cd3eddfc87d2a48565fc13fc59c7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    }
+  ]
+}

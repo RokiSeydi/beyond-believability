@@ -1,0 +1,1381 @@
+{
+  "created_at": "2026-08-27T23:50:08.406Z",
+  "method": "Park_et_al_style_memory_construction",
+  "adaptations": [
+    "Static episode order substitutes for continuously advancing sandbox time.",
+    "Park et al.'s 0.995 access-recency decay is applied over discrete record and retrieval events rather than sandbox game hours.",
+    "A fixed top-15 records is retrieved per reflection question because the paper does not prescribe a unique count for this corpus.",
+    "Reflection accumulation resets after each triggered cycle."
+  ],
+  "prompts": {
+    "importance_system": "Rate the likely poignancy or importance of one memory for the person experiencing it. Use an integer from 1 to 10, where 1 is purely mundane (for example, brushing teeth or making a bed) and 10 is extremely poignant (for example, a breakup or college acceptance). Assess only the supplied memory. Do not infer missing facts or use external information."
+  },
+  "requested_models": {
+    "generation": "gpt-5.6-luna",
+    "embedding": "text-embedding-ada-002"
+  },
+  "observation_count": 40,
+  "reflection_count": 5,
+  "reflection_cycles": [
+    {
+      "cycle": 1,
+      "triggered_after_memory_id": "participant-d-m023",
+      "accumulated_importance": 151,
+      "questions": [
+        "How do Participants C and D’s differing expectations about time, prioritisation, decision-making, and recognition contribute to recurring conflict and unresolved hurt?",
+        "How does Participant E experience uncertainty, limited availability, and the lack of open recognition of the relationship with Participant D, and what effects does this have on security and future planning?",
+        "How do Participants C, D, and E’s relationship values, communication patterns, and responses to past injuries shape their ability to establish mutually understood boundaries and relationship terms?"
+      ],
+      "retrieved_by_question": [
+        {
+          "question": "How do Participants C and D’s differing expectations about time, prioritisation, decision-making, and recognition contribute to recurring conflict and unresolved hurt?",
+          "records": [
+            {
+              "id": "participant-d-m022",
+              "score": 2.685519223806823
+            },
+            {
+              "id": "participant-d-m023",
+              "score": 2.4904568328997865
+            },
+            {
+              "id": "participant-d-m016",
+              "score": 2.418665992646983
+            },
+            {
+              "id": "participant-d-m018",
+              "score": 2.4148913383667407
+            },
+            {
+              "id": "participant-d-m017",
+              "score": 2.320932605707502
+            },
+            {
+              "id": "participant-d-m014",
+              "score": 2.173874792446156
+            },
+            {
+              "id": "participant-d-m021",
+              "score": 2.157795815895405
+            },
+            {
+              "id": "participant-d-m012",
+              "score": 2.023668597313355
+            },
+            {
+              "id": "participant-d-m009",
+              "score": 2.0025283913046104
+            },
+            {
+              "id": "participant-d-m015",
+              "score": 1.9850827451201338
+            },
+            {
+              "id": "participant-d-m013",
+              "score": 1.9188694003695534
+            },
+            {
+              "id": "participant-d-m019",
+              "score": 1.7757492490066826
+            },
+            {
+              "id": "participant-d-m003",
+              "score": 1.7707223443980191
+            },
+            {
+              "id": "participant-d-m020",
+              "score": 1.7539073623730472
+            },
+            {
+              "id": "participant-d-m011",
+              "score": 1.6331163457320725
+            }
+          ]
+        },
+        {
+          "question": "How does Participant E experience uncertainty, limited availability, and the lack of open recognition of the relationship with Participant D, and what effects does this have on security and future planning?",
+          "records": [
+            {
+              "id": "participant-d-m022",
+              "score": 2.5996611487627375
+            },
+            {
+              "id": "participant-d-m003",
+              "score": 2.3746681911332606
+            },
+            {
+              "id": "participant-d-m021",
+              "score": 2.1025413336765864
+            },
+            {
+              "id": "participant-d-m009",
+              "score": 2.0901325256301364
+            },
+            {
+              "id": "participant-d-m013",
+              "score": 1.9444505617180496
+            },
+            {
+              "id": "participant-d-m017",
+              "score": 1.9424048226604578
+            },
+            {
+              "id": "participant-d-m016",
+              "score": 1.8813560651041281
+            },
+            {
+              "id": "participant-d-m023",
+              "score": 1.8718490513857433
+            },
+            {
+              "id": "participant-d-m012",
+              "score": 1.8262516089319707
+            },
+            {
+              "id": "participant-d-m015",
+              "score": 1.7791416929808332
+            },
+            {
+              "id": "participant-d-m014",
+              "score": 1.7574342182540437
+            },
+            {
+              "id": "participant-d-m018",
+              "score": 1.746025382072945
+            },
+            {
+              "id": "participant-d-m019",
+              "score": 1.7182312397152293
+            },
+            {
+              "id": "participant-d-m011",
+              "score": 1.6414316620139071
+            },
+            {
+              "id": "participant-d-m020",
+              "score": 1.5309872076244608
+            }
+          ]
+        },
+        {
+          "question": "How do Participants C, D, and E’s relationship values, communication patterns, and responses to past injuries shape their ability to establish mutually understood boundaries and relationship terms?",
+          "records": [
+            {
+              "id": "participant-d-m023",
+              "score": 2.849731155856631
+            },
+            {
+              "id": "participant-d-m017",
+              "score": 2.57982061196464
+            },
+            {
+              "id": "participant-d-m022",
+              "score": 2.409086790494755
+            },
+            {
+              "id": "participant-d-m020",
+              "score": 2.3877436325448986
+            },
+            {
+              "id": "participant-d-m014",
+              "score": 2.3556837302448597
+            },
+            {
+              "id": "participant-d-m018",
+              "score": 2.342533171901068
+            },
+            {
+              "id": "participant-d-m016",
+              "score": 2.3266144170444765
+            },
+            {
+              "id": "participant-d-m019",
+              "score": 2.287944851887066
+            },
+            {
+              "id": "participant-d-m021",
+              "score": 2.251027115789469
+            },
+            {
+              "id": "participant-d-m015",
+              "score": 2.0658736958961144
+            },
+            {
+              "id": "participant-d-m012",
+              "score": 1.8501179472101539
+            },
+            {
+              "id": "participant-d-m013",
+              "score": 1.8487573768766656
+            },
+            {
+              "id": "participant-d-m011",
+              "score": 1.8136285538495462
+            },
+            {
+              "id": "participant-d-m009",
+              "score": 1.8032021697987508
+            },
+            {
+              "id": "participant-d-m003",
+              "score": 1.7294879328218775
+            }
+          ]
+        }
+      ],
+      "insights": [
+        {
+          "insight": "A recurring relational theme is Participant D’s experience of being less invested in, forgotten, or secondary, particularly when Participant C’s work, commitments, or other relationships receive priority.",
+          "supporting_record_ids": [
+            "participant-d-m013",
+            "participant-d-m019",
+            "participant-d-m011",
+            "participant-d-m009"
+          ]
+        },
+        {
+          "insight": "After the rupture, both participants appear to respond to hurt through compensatory efforts and retaliatory withdrawal: Participant C increases attentiveness, while Participant D deliberately reduces warmth so Participant C will feel similar pain.",
+          "supporting_record_ids": [
+            "participant-d-m017",
+            "participant-d-m014",
+            "participant-d-m016",
+            "participant-d-m015"
+          ]
+        },
+        {
+          "insight": "Forgiveness does not resolve the injury; the unresolved rupture continues to shape later disagreements and the way each person interprets the other’s behavior.",
+          "supporting_record_ids": [
+            "participant-d-m018",
+            "participant-d-m023",
+            "participant-d-m015"
+          ]
+        },
+        {
+          "insight": "Major relationship decisions and arrangements are experienced as insufficiently collaborative when communicated through logistics, assumptions, or unilateral determinations rather than joint discussion.",
+          "supporting_record_ids": [
+            "participant-d-m003",
+            "participant-d-m023"
+          ]
+        },
+        {
+          "insight": "Uncertainty and lack of explicit recognition undermine the ability to plan or imagine a shared future, especially when the relationship cannot be openly represented to family or its status remains unclear.",
+          "supporting_record_ids": [
+            "participant-d-m022",
+            "participant-d-m021",
+            "participant-d-m009"
+          ]
+        }
+      ],
+      "question_response_id": "resp_0167f2ec8eb0db57016a90cd11697c87d2899aaa8a71e1ed38",
+      "insight_response_id": "resp_0dfcc0d0b6f66488016a90cd17555887d2a3a3f84d8c660654"
+    }
+  ],
+  "api_log": [
+    {
+      "label": "importance:participant-d-m001",
+      "endpoint": "responses",
+      "response_id": "resp_078e7b7ca365275c016a90ccf3e96087d2b545f3caac6ce067",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:participant-d-m002",
+      "endpoint": "responses",
+      "response_id": "resp_052877c465078d81016a90ccf55ad087d28d8a276b34ac8bba",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 140,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 155
+      }
+    },
+    {
+      "label": "importance:participant-d-m003",
+      "endpoint": "responses",
+      "response_id": "resp_08b658a48884118b016a90ccf6d04c87d2af0dd16725d762e1",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:participant-d-m004",
+      "endpoint": "responses",
+      "response_id": "resp_0296a3b4c7c73802016a90ccf86bcc87d289df48adf15fc9f5",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:participant-d-m005",
+      "endpoint": "responses",
+      "response_id": "resp_0a4604776809c0ef016a90ccf94da087d29e701a6d07079d1f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m006",
+      "endpoint": "responses",
+      "response_id": "resp_0da5ce144be45cb7016a90ccfa7f1487d2ad00a64823ba6652",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:participant-d-m007",
+      "endpoint": "responses",
+      "response_id": "resp_040652591a205faf016a90ccfbc28887d29918bb271406caac",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:participant-d-m008",
+      "endpoint": "responses",
+      "response_id": "resp_00f0722a1cd93cc4016a90ccfccd7087d2b4c7a516d2bc12c1",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:participant-d-m009",
+      "endpoint": "responses",
+      "response_id": "resp_0f94c8b37afc6b95016a90ccfe172487d290db51d153447d9c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 155,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 170
+      }
+    },
+    {
+      "label": "importance:participant-d-m010",
+      "endpoint": "responses",
+      "response_id": "resp_079e43b4d8d53451016a90ccfefdec87d2bfbe5811462acdbb",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:participant-d-m011",
+      "endpoint": "responses",
+      "response_id": "resp_02b1959571c151ec016a90cd007dec87d2bcc4770d68c1068e",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m012",
+      "endpoint": "responses",
+      "response_id": "resp_000ff89dd1aa89af016a90cd02ad7c87d2b9eca75f6a77e596",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:participant-d-m013",
+      "endpoint": "responses",
+      "response_id": "resp_043c5f67d1f50e60016a90cd037ba087d29fdaada66a80ac77",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m014",
+      "endpoint": "responses",
+      "response_id": "resp_0442edb4145c13ee016a90cd047f3887d2956d389deb2188a0",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m015",
+      "endpoint": "responses",
+      "response_id": "resp_03b4eab18a4f9bd8016a90cd05ca7487d2ade0db51f0a0f6a2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m016",
+      "endpoint": "responses",
+      "response_id": "resp_0de87896aa0e8141016a90cd068bf887d281bd3264b3b17dc6",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:participant-d-m017",
+      "endpoint": "responses",
+      "response_id": "resp_09b4bf9374ede9e2016a90cd078ab487d2b332cf428276e717",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:participant-d-m018",
+      "endpoint": "responses",
+      "response_id": "resp_0a716de099ccb4ca016a90cd08991487d29a3e62e0217dbee7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m019",
+      "endpoint": "responses",
+      "response_id": "resp_0a5d9d91d116185e016a90cd09dd3487d282a7333f2b8bdb93",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m020",
+      "endpoint": "responses",
+      "response_id": "resp_003a52de31cb56de016a90cd0ac49c87d2b6c93a6c3f8cafc2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:participant-d-m021",
+      "endpoint": "responses",
+      "response_id": "resp_06e75022103c0e5b016a90cd0bbf5487d2b368a4293aed7577",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 157,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 172
+      }
+    },
+    {
+      "label": "importance:participant-d-m022",
+      "endpoint": "responses",
+      "response_id": "resp_044c03b8be73e828016a90cd0dc56487d2abfa257111bbed5e",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:participant-d-m023",
+      "endpoint": "responses",
+      "response_id": "resp_08cbe28c90e5170f016a90cd0fec1c87d2a04b987fc9510089",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "reflection-questions:1",
+      "endpoint": "responses",
+      "response_id": "resp_0167f2ec8eb0db57016a90cd11697c87d2899aaa8a71e1ed38",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 1009,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 111,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1120
+      }
+    },
+    {
+      "label": "embedding:query-c1-q1",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:participant-d-m011",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:participant-d-m004",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:participant-d-m009",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 42
+      }
+    },
+    {
+      "label": "embedding:participant-d-m016",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:participant-d-m013",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:participant-d-m020",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:participant-d-m019",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:participant-d-m008",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:participant-d-m005",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:participant-d-m010",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:participant-d-m021",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 44,
+        "total_tokens": 44
+      }
+    },
+    {
+      "label": "embedding:participant-d-m015",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:participant-d-m001",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 41
+      }
+    },
+    {
+      "label": "embedding:participant-d-m017",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:participant-d-m006",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:participant-d-m012",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:participant-d-m003",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 41
+      }
+    },
+    {
+      "label": "embedding:participant-d-m002",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 27,
+        "total_tokens": 27
+      }
+    },
+    {
+      "label": "embedding:participant-d-m023",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:participant-d-m018",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:participant-d-m014",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:participant-d-m022",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:participant-d-m007",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:query-c1-q2",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:query-c1-q3",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "reflection-insights:1",
+      "endpoint": "responses",
+      "response_id": "resp_0dfcc0d0b6f66488016a90cd17555887d2a3a3f84d8c660654",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 799,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 304,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1103
+      }
+    },
+    {
+      "label": "importance:ref-c01-01",
+      "endpoint": "responses",
+      "response_id": "resp_0e379418518a4698016a90cd1a9b0887d2a07377b7df770586",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:ref-c01-02",
+      "endpoint": "responses",
+      "response_id": "resp_03961d9569b25054016a90cd1c55c087d2be637815578f2e0b",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 153,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 168
+      }
+    },
+    {
+      "label": "importance:ref-c01-03",
+      "endpoint": "responses",
+      "response_id": "resp_0544599055ff3b30016a90cd1d437c87d28c1cfda06b63e532",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:ref-c01-04",
+      "endpoint": "responses",
+      "response_id": "resp_0455528304c85b0f016a90cd1e369087d2bffd409594cd1395",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 140,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 155
+      }
+    },
+    {
+      "label": "importance:ref-c01-05",
+      "endpoint": "responses",
+      "response_id": "resp_0435b6c5febb3c16016a90cd1f213c87d281ff636360d0c862",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m024",
+      "endpoint": "responses",
+      "response_id": "resp_0dc0ea55025b6859016a90cd2025e087d2beab4fe08e41c20b",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:participant-d-m025",
+      "endpoint": "responses",
+      "response_id": "resp_08c016cd03edf8de016a90cd214cf087d29f41138bbd9a28e2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 157
+      }
+    },
+    {
+      "label": "importance:participant-d-m026",
+      "endpoint": "responses",
+      "response_id": "resp_0ca62d24efa50800016a90cd22263087d2bfb47b41c94be990",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 151,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 166
+      }
+    },
+    {
+      "label": "importance:participant-d-m027",
+      "endpoint": "responses",
+      "response_id": "resp_008bf8be0fdcabf7016a90cd232e3087d2a524fabd18ab79db",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:participant-d-m028",
+      "endpoint": "responses",
+      "response_id": "resp_08a5d75aa119fda8016a90cd24a1bc87d2bea2e7aaec27c0b3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 139,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 154
+      }
+    },
+    {
+      "label": "importance:participant-d-m029",
+      "endpoint": "responses",
+      "response_id": "resp_02888f13661bb57c016a90cd25d18087d28b380db4a8e19578",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:participant-d-m030",
+      "endpoint": "responses",
+      "response_id": "resp_013fb398c6a52ff1016a90cd27034487d2a00c7bc80d9771d5",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:participant-d-m031",
+      "endpoint": "responses",
+      "response_id": "resp_0b746dae1dede3f4016a90cd27eea887d2893532875ef077f1",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 152,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 167
+      }
+    },
+    {
+      "label": "importance:participant-d-m032",
+      "endpoint": "responses",
+      "response_id": "resp_0755faa227139c80016a90cd28a69887d2bd64f91ec2bc5264",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:participant-d-m033",
+      "endpoint": "responses",
+      "response_id": "resp_00b6949869a33858016a90cd29785887d28feafb4b2d27c1ce",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m034",
+      "endpoint": "responses",
+      "response_id": "resp_041903d99486a661016a90cd2a536087d2997e5938bab346a4",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:participant-d-m035",
+      "endpoint": "responses",
+      "response_id": "resp_04eae1d1d4a58953016a90cd2b19ac87d2bd7c9fc66d2bf320",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:participant-d-m036",
+      "endpoint": "responses",
+      "response_id": "resp_0a19605acc1820a4016a90cd2bd98487d2ae6d8ac783d34480",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:participant-d-m037",
+      "endpoint": "responses",
+      "response_id": "resp_04257b770a7c4fab016a90cd2cb3d487d2903568fb6bce7654",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:participant-d-m038",
+      "endpoint": "responses",
+      "response_id": "resp_0f3fb26e0268259a016a90cd2d976c87d2b740d90b507766eb",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:participant-d-m039",
+      "endpoint": "responses",
+      "response_id": "resp_040dcc2eac808d1a016a90cd2ea44487d287ac19be74fecee8",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:participant-d-m040",
+      "endpoint": "responses",
+      "response_id": "resp_02acb5eca099b9dd016a90cd2fa13887d2862bcd6369227320",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    }
+  ]
+}

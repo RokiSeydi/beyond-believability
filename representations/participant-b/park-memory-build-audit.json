@@ -1,0 +1,5020 @@
+{
+  "created_at": "2026-08-25T18:29:02.664Z",
+  "method": "Park_et_al_style_memory_construction",
+  "adaptations": [
+    "Static episode order substitutes for continuously advancing sandbox time.",
+    "Park et al.'s 0.995 access-recency decay is applied over discrete record and retrieval events rather than sandbox game hours.",
+    "A fixed top-15 records is retrieved per reflection question because the paper does not prescribe a unique count for this corpus.",
+    "Reflection accumulation resets after each triggered cycle."
+  ],
+  "prompts": {
+    "importance_system": "Rate the likely poignancy or importance of one memory for the person experiencing it. Use an integer from 1 to 10, where 1 is purely mundane (for example, brushing teeth or making a bed) and 10 is extremely poignant (for example, a breakup or college acceptance). Assess only the supplied memory. Do not infer missing facts or use external information."
+  },
+  "requested_models": {
+    "generation": "gpt-5.6-luna",
+    "embedding": "text-embedding-ada-002"
+  },
+  "observation_count": 116,
+  "reflection_count": 20,
+  "reflection_cycles": [
+    {
+      "cycle": 1,
+      "triggered_after_memory_id": "mem-027",
+      "accumulated_importance": 155,
+      "questions": [
+        "How do Participant A and Participant B differ in their expectations about cohabitation, engagement, and Participant B’s integration into family life?",
+        "How do household and childcare responsibilities contribute to conflict and to Participant A’s feeling that the relationship is not a partnership?",
+        "How do the participants’ communication styles and interpretations of each other’s actions escalate conflict and shape their decisions to stay, leave, or seek change?"
+      ],
+      "retrieved_by_question": [
+        {
+          "question": "How do Participant A and Participant B differ in their expectations about cohabitation, engagement, and Participant B’s integration into family life?",
+          "records": [
+            {
+              "id": "mem-015",
+              "score": 1.9991843128497524
+            },
+            {
+              "id": "mem-027",
+              "score": 1.9972955540741368
+            },
+            {
+              "id": "mem-022",
+              "score": 1.9248569529247823
+            },
+            {
+              "id": "mem-025",
+              "score": 1.8127861172442565
+            },
+            {
+              "id": "mem-004",
+              "score": 1.7338454098358567
+            },
+            {
+              "id": "mem-016",
+              "score": 1.727883984062811
+            },
+            {
+              "id": "mem-007",
+              "score": 1.681382336607193
+            },
+            {
+              "id": "mem-026",
+              "score": 1.6074499381923881
+            },
+            {
+              "id": "mem-013",
+              "score": 1.5825699951285184
+            },
+            {
+              "id": "mem-003",
+              "score": 1.5681126337339724
+            },
+            {
+              "id": "mem-018",
+              "score": 1.5499787086220795
+            },
+            {
+              "id": "mem-008",
+              "score": 1.5222167470558374
+            },
+            {
+              "id": "mem-001",
+              "score": 1.4818182952838685
+            },
+            {
+              "id": "mem-005",
+              "score": 1.3936986374200822
+            },
+            {
+              "id": "mem-009",
+              "score": 1.3691939828239887
+            }
+          ]
+        },
+        {
+          "question": "How do household and childcare responsibilities contribute to conflict and to Participant A’s feeling that the relationship is not a partnership?",
+          "records": [
+            {
+              "id": "mem-009",
+              "score": 2.625
+            },
+            {
+              "id": "mem-003",
+              "score": 2.601141593870749
+            },
+            {
+              "id": "mem-001",
+              "score": 2.5905275883211645
+            },
+            {
+              "id": "mem-007",
+              "score": 2.1525482450839792
+            },
+            {
+              "id": "mem-005",
+              "score": 2.112968495628118
+            },
+            {
+              "id": "mem-008",
+              "score": 1.9557465236312543
+            },
+            {
+              "id": "mem-013",
+              "score": 1.9413256984346177
+            },
+            {
+              "id": "mem-025",
+              "score": 1.9088018187142197
+            },
+            {
+              "id": "mem-016",
+              "score": 1.8372192700437904
+            },
+            {
+              "id": "mem-015",
+              "score": 1.81031538120443
+            },
+            {
+              "id": "mem-004",
+              "score": 1.8072012594769897
+            },
+            {
+              "id": "mem-022",
+              "score": 1.5383605804743075
+            },
+            {
+              "id": "mem-027",
+              "score": 1.5302319853836128
+            },
+            {
+              "id": "mem-018",
+              "score": 1.4951034974549453
+            },
+            {
+              "id": "mem-010",
+              "score": 1.2950842660770894
+            }
+          ]
+        },
+        {
+          "question": "How do the participants’ communication styles and interpretations of each other’s actions escalate conflict and shape their decisions to stay, leave, or seek change?",
+          "records": [
+            {
+              "id": "mem-004",
+              "score": 2.542616254370623
+            },
+            {
+              "id": "mem-016",
+              "score": 2.48197859615617
+            },
+            {
+              "id": "mem-015",
+              "score": 2.4264835487072562
+            },
+            {
+              "id": "mem-001",
+              "score": 2.4264518007683296
+            },
+            {
+              "id": "mem-007",
+              "score": 2.336614018462404
+            },
+            {
+              "id": "mem-027",
+              "score": 2.207145323566924
+            },
+            {
+              "id": "mem-022",
+              "score": 2.14842503410235
+            },
+            {
+              "id": "mem-003",
+              "score": 1.971340081805354
+            },
+            {
+              "id": "mem-005",
+              "score": 1.9601870070705951
+            },
+            {
+              "id": "mem-013",
+              "score": 1.9450689905558298
+            },
+            {
+              "id": "mem-009",
+              "score": 1.933948770009564
+            },
+            {
+              "id": "mem-010",
+              "score": 1.8516661417899614
+            },
+            {
+              "id": "mem-008",
+              "score": 1.81693247673295
+            },
+            {
+              "id": "mem-025",
+              "score": 1.720964648319886
+            },
+            {
+              "id": "mem-026",
+              "score": 1.5761062919018989
+            }
+          ]
+        }
+      ],
+      "insights": [
+        {
+          "insight": "The couple’s conflict centers on an unequal distribution of domestic and parenting responsibilities, with Participant A feeling she must manage basic chores and parenting largely alone.",
+          "supporting_record_ids": [
+            "mem-025",
+            "mem-003",
+            "mem-009"
+          ]
+        },
+        {
+          "insight": "They entered cohabitation and parenthood without clearly agreeing on domestic expectations, contributing to later resentment and the perception that the relationship is no longer a partnership.",
+          "supporting_record_ids": [
+            "mem-005",
+            "mem-009",
+            "mem-018"
+          ]
+        },
+        {
+          "insight": "The partners interpret separation differently: Participant B views moving out as an attempt to save the relationship, while Participant A experiences it as abandonment or quitting.",
+          "supporting_record_ids": [
+            "mem-016",
+            "mem-007"
+          ]
+        },
+        {
+          "insight": "Communication is shaped by comparison and perceived criticism, so Participant A’s attempts to describe her burden are heard by Participant B as personal attacks rather than criticism of a shared household problem.",
+          "supporting_record_ids": [
+            "mem-027",
+            "mem-026",
+            "mem-013",
+            "mem-010"
+          ]
+        },
+        {
+          "insight": "Despite significant fear and accumulated strain, including the stakes associated with their children and Participant A’s past fertility difficulties, there remains an effort to test whether greater engagement and presence can repair the relationship.",
+          "supporting_record_ids": [
+            "mem-001",
+            "mem-008",
+            "mem-004",
+            "mem-022"
+          ]
+        }
+      ],
+      "question_response_id": "resp_08756f762bae652b016a8dde3d304887d2889262af42964229",
+      "insight_response_id": "resp_0556cbd9be8e7364016a8dde46241087d289dbb2a8182acdb8"
+    },
+    {
+      "cycle": 2,
+      "triggered_after_memory_id": "mem-063",
+      "accumulated_importance": 154,
+      "questions": [
+        "How do unequal household and parenting responsibilities, along with unclear expectations about cohabitation, contribute to conflict and resentment between Participants A and B?",
+        "How do criticism, comparison, differing interpretations of separation, and Participant A’s OCD-related routines shape the couple’s communication and perceptions of one another?",
+        "What attempts or proposed experiments have Participants A and B made to increase Participant B’s presence, redistribute responsibilities, and determine whether the relationship can function as a partnership?"
+      ],
+      "retrieved_by_question": [
+        {
+          "question": "How do unequal household and parenting responsibilities, along with unclear expectations about cohabitation, contribute to conflict and resentment between Participants A and B?",
+          "records": [
+            {
+              "id": "ref-c01-01",
+              "score": 2.3242473621852002
+            },
+            {
+              "id": "mem-063",
+              "score": 2.1850335228533124
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.1695022110197724
+            },
+            {
+              "id": "ref-c01-05",
+              "score": 2.096074990822574
+            },
+            {
+              "id": "mem-053",
+              "score": 2.0235058382743274
+            },
+            {
+              "id": "ref-c01-03",
+              "score": 2.0035766667119854
+            },
+            {
+              "id": "mem-037",
+              "score": 1.9834049010214028
+            },
+            {
+              "id": "mem-003",
+              "score": 1.887942137618124
+            },
+            {
+              "id": "mem-008",
+              "score": 1.8731307626236842
+            },
+            {
+              "id": "mem-032",
+              "score": 1.8322376280708195
+            },
+            {
+              "id": "mem-062",
+              "score": 1.828419934201079
+            },
+            {
+              "id": "mem-007",
+              "score": 1.821174756248804
+            },
+            {
+              "id": "mem-001",
+              "score": 1.8181265040515309
+            },
+            {
+              "id": "ref-c01-04",
+              "score": 1.7750869871487907
+            },
+            {
+              "id": "mem-051",
+              "score": 1.7735450761136855
+            }
+          ]
+        },
+        {
+          "question": "How do criticism, comparison, differing interpretations of separation, and Participant A’s OCD-related routines shape the couple’s communication and perceptions of one another?",
+          "records": [
+            {
+              "id": "ref-c01-04",
+              "score": 2.6143219245484928
+            },
+            {
+              "id": "ref-c01-01",
+              "score": 2.3870022417412216
+            },
+            {
+              "id": "ref-c01-05",
+              "score": 2.3781929559488684
+            },
+            {
+              "id": "mem-051",
+              "score": 2.3233800774544644
+            },
+            {
+              "id": "mem-001",
+              "score": 2.299572937430182
+            },
+            {
+              "id": "ref-c01-03",
+              "score": 2.2747608305765734
+            },
+            {
+              "id": "mem-007",
+              "score": 2.172912043971273
+            },
+            {
+              "id": "mem-053",
+              "score": 2.123359328675911
+            },
+            {
+              "id": "mem-063",
+              "score": 2.0772017821321547
+            },
+            {
+              "id": "mem-008",
+              "score": 2.055585468229425
+            },
+            {
+              "id": "mem-042",
+              "score": 2.0356135080076054
+            },
+            {
+              "id": "mem-046",
+              "score": 2.033371939382415
+            },
+            {
+              "id": "mem-003",
+              "score": 1.9961402301006954
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 1.9678897075239747
+            },
+            {
+              "id": "mem-037",
+              "score": 1.9617218278676214
+            }
+          ]
+        },
+        {
+          "question": "What attempts or proposed experiments have Participants A and B made to increase Participant B’s presence, redistribute responsibilities, and determine whether the relationship can function as a partnership?",
+          "records": [
+            {
+              "id": "ref-c01-05",
+              "score": 2.759804084118955
+            },
+            {
+              "id": "ref-c01-01",
+              "score": 2.4732985211865977
+            },
+            {
+              "id": "ref-c01-03",
+              "score": 2.456506436980128
+            },
+            {
+              "id": "mem-001",
+              "score": 2.3668580457637747
+            },
+            {
+              "id": "mem-003",
+              "score": 2.2601369950688186
+            },
+            {
+              "id": "mem-007",
+              "score": 2.2525488620844643
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.2102246201526867
+            },
+            {
+              "id": "mem-008",
+              "score": 2.206730382580334
+            },
+            {
+              "id": "mem-063",
+              "score": 2.196970633020765
+            },
+            {
+              "id": "mem-053",
+              "score": 2.167644400051573
+            },
+            {
+              "id": "mem-032",
+              "score": 2.076342193109333
+            },
+            {
+              "id": "mem-037",
+              "score": 2.0364725581002148
+            },
+            {
+              "id": "ref-c01-04",
+              "score": 1.9982286367299644
+            },
+            {
+              "id": "mem-046",
+              "score": 1.8637662563768045
+            },
+            {
+              "id": "mem-039",
+              "score": 1.7622843449794559
+            }
+          ]
+        }
+      ],
+      "insights": [
+        {
+          "insight": "The central conflict is a mutually reinforcing cycle: Participant A feels solely responsible for household and parenting work, while Participant B feels excluded from the home and responds to her complaints as criticism rather than as concerns about shared responsibilities.",
+          "supporting_record_ids": [
+            "ref-c01-01",
+            "mem-032",
+            "ref-c01-04"
+          ]
+        },
+        {
+          "insight": "Domestic disagreements are intensified by different standards and power dynamics: Participant A’s OCD-related routines create highly specific expectations, while her control of the schedule and environment leaves her burdened with authority and Participant B feeling treated as incapable.",
+          "supporting_record_ids": [
+            "mem-042",
+            "mem-046",
+            "mem-053",
+            "mem-062"
+          ]
+        },
+        {
+          "insight": "The couple entered major shared commitments without establishing clear expectations, allowing resentment to develop around care, chores, parenting, and what partnership should mean.",
+          "supporting_record_ids": [
+            "ref-c01-02",
+            "mem-003",
+            "ref-c01-01"
+          ]
+        },
+        {
+          "insight": "Separation carries opposite meanings for the partners: Participant B sees moving out as a possible way to preserve the relationship, whereas Participant A experiences it as abandonment, reflecting their different fears and histories.",
+          "supporting_record_ids": [
+            "ref-c01-03",
+            "mem-007",
+            "mem-037"
+          ]
+        },
+        {
+          "insight": "Despite substantial fear and accumulated strain—including the importance of the children and Participant A’s fertility history—the relationship remains under consideration, with greater presence and engagement viewed as a possible basis for repair.",
+          "supporting_record_ids": [
+            "ref-c01-05",
+            "mem-008",
+            "mem-001",
+            "mem-039"
+          ]
+        }
+      ],
+      "question_response_id": "resp_0cac9bc961a5f7d2016a8dde7eaa4c87d28cd291163fe1a2ed",
+      "insight_response_id": "resp_024ed4c9aacc25aa016a8dde83fdac87d2b0daf95a091c9d20"
+    },
+    {
+      "cycle": 3,
+      "triggered_after_memory_id": "mem-088",
+      "accumulated_importance": 152,
+      "questions": [
+        "How do unequal household and parenting responsibilities, differing domestic standards, and unclear expectations contribute to the couple’s recurring conflict?",
+        "How do the partners’ contrasting interpretations of criticism, control, authority, and separation reinforce their feelings of burden, inadequacy, exclusion, or abandonment?",
+        "What factors—including past trauma, fertility and parenting experiences, gender-role beliefs, and attempts at greater cohabitation—shape each partner’s willingness and ability to repair the relationship?"
+      ],
+      "retrieved_by_question": [
+        {
+          "question": "How do unequal household and parenting responsibilities, differing domestic standards, and unclear expectations contribute to the couple’s recurring conflict?",
+          "records": [
+            {
+              "id": "ref-c01-01",
+              "score": 2.430236805105358
+            },
+            {
+              "id": "ref-c02-03",
+              "score": 2.38259234295428
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.345574363038884
+            },
+            {
+              "id": "ref-c02-01",
+              "score": 2.299183002587725
+            },
+            {
+              "id": "mem-082",
+              "score": 2.273400872338398
+            },
+            {
+              "id": "ref-c02-02",
+              "score": 2.1996626571641666
+            },
+            {
+              "id": "ref-c01-05",
+              "score": 2.1608187777759342
+            },
+            {
+              "id": "mem-065",
+              "score": 2.122425562587164
+            },
+            {
+              "id": "ref-c02-05",
+              "score": 2.066613888065805
+            },
+            {
+              "id": "mem-069",
+              "score": 2.0457863219259003
+            },
+            {
+              "id": "mem-067",
+              "score": 2.0451914412844507
+            },
+            {
+              "id": "ref-c02-04",
+              "score": 2.03333834474346
+            },
+            {
+              "id": "mem-080",
+              "score": 2.030581687280373
+            },
+            {
+              "id": "mem-083",
+              "score": 2.0259273883575775
+            },
+            {
+              "id": "mem-081",
+              "score": 2.022663146477446
+            }
+          ]
+        },
+        {
+          "question": "How do the partners’ contrasting interpretations of criticism, control, authority, and separation reinforce their feelings of burden, inadequacy, exclusion, or abandonment?",
+          "records": [
+            {
+              "id": "ref-c01-01",
+              "score": 2.643255096552008
+            },
+            {
+              "id": "ref-c02-01",
+              "score": 2.635896675362529
+            },
+            {
+              "id": "ref-c02-04",
+              "score": 2.635117389664586
+            },
+            {
+              "id": "ref-c01-05",
+              "score": 2.61213909446578
+            },
+            {
+              "id": "ref-c02-03",
+              "score": 2.5402611430723807
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.5301504190684163
+            },
+            {
+              "id": "ref-c02-02",
+              "score": 2.517745710493596
+            },
+            {
+              "id": "ref-c02-05",
+              "score": 2.429078324322132
+            },
+            {
+              "id": "mem-069",
+              "score": 2.3478999119766786
+            },
+            {
+              "id": "mem-065",
+              "score": 2.3253068580432186
+            },
+            {
+              "id": "mem-082",
+              "score": 2.288262536914077
+            },
+            {
+              "id": "ref-c01-03",
+              "score": 2.282903373057127
+            },
+            {
+              "id": "ref-c01-04",
+              "score": 2.2526512240290346
+            },
+            {
+              "id": "mem-084",
+              "score": 2.1484001113635887
+            },
+            {
+              "id": "mem-081",
+              "score": 2.128520971230719
+            }
+          ]
+        },
+        {
+          "question": "What factors—including past trauma, fertility and parenting experiences, gender-role beliefs, and attempts at greater cohabitation—shape each partner’s willingness and ability to repair the relationship?",
+          "records": [
+            {
+              "id": "ref-c01-05",
+              "score": 2.793881690874666
+            },
+            {
+              "id": "ref-c02-05",
+              "score": 2.6364685213135415
+            },
+            {
+              "id": "mem-082",
+              "score": 2.3704765722412984
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.289127903927106
+            },
+            {
+              "id": "ref-c01-01",
+              "score": 2.275197778167806
+            },
+            {
+              "id": "ref-c01-03",
+              "score": 2.239437968475057
+            },
+            {
+              "id": "ref-c02-03",
+              "score": 2.2312744486838882
+            },
+            {
+              "id": "mem-065",
+              "score": 2.2219990889160153
+            },
+            {
+              "id": "mem-081",
+              "score": 2.2148700008726268
+            },
+            {
+              "id": "mem-084",
+              "score": 2.1338451609195523
+            },
+            {
+              "id": "mem-069",
+              "score": 2.1336176855008886
+            },
+            {
+              "id": "ref-c02-01",
+              "score": 2.12789085122873
+            },
+            {
+              "id": "ref-c02-04",
+              "score": 2.0991622952169684
+            },
+            {
+              "id": "mem-083",
+              "score": 2.0833878962389325
+            },
+            {
+              "id": "ref-c02-02",
+              "score": 2.050440563922125
+            }
+          ]
+        }
+      ],
+      "insights": [
+        {
+          "insight": "The relationship’s core distress is a recurring cycle in which unequal domestic and parenting labor leaves Participant A feeling alone and resentful, while Participant B experiences her concerns as criticism and becomes further disengaged.",
+          "supporting_record_ids": [
+            "ref-c01-01",
+            "ref-c02-01",
+            "ref-c01-04",
+            "mem-067"
+          ]
+        },
+        {
+          "insight": "The couple’s expectations for partnership were not clearly established before cohabitation and parenthood, allowing different assumptions about caregiving, chores, authority, and mutual responsibility to harden into resentment.",
+          "supporting_record_ids": [
+            "ref-c02-03",
+            "ref-c01-02",
+            "ref-c02-02"
+          ]
+        },
+        {
+          "insight": "Participant A’s identity and self-worth are strongly affected by the transition from work to full-time motherhood, making Participant B’s perceived partial participation feel like a failure to build the family she is striving toward.",
+          "supporting_record_ids": [
+            "mem-069",
+            "mem-065",
+            "mem-067"
+          ]
+        },
+        {
+          "insight": "Participant A’s history of sexual trauma, betrayal, and abandonment appears connected to a deep reluctance to be vulnerable and to interpreting separation or emotional withdrawal as abandonment rather than protection or repair.",
+          "supporting_record_ids": [
+            "mem-082",
+            "mem-080",
+            "mem-081",
+            "mem-084",
+            "ref-c02-04",
+            "ref-c01-03"
+          ]
+        },
+        {
+          "insight": "Despite substantial strain and fear, the relationship has not been fully abandoned: the children, Participant A’s fertility history, and the possibility that greater presence and engagement could repair the partnership remain powerful reasons to keep testing whether it can work.",
+          "supporting_record_ids": [
+            "ref-c01-05",
+            "ref-c02-05",
+            "mem-065",
+            "mem-083"
+          ]
+        }
+      ],
+      "question_response_id": "resp_0a961f4f96a223b2016a8ddeac74dc87d2aa40fb4e5bcaedb7",
+      "insight_response_id": "resp_024d2404c33a1b7a016a8ddeb176c087d2a038d05c4909dfaa"
+    },
+    {
+      "cycle": 4,
+      "triggered_after_memory_id": "mem-112",
+      "accumulated_importance": 156,
+      "questions": [
+        "What recurring cycle of unequal household and parenting responsibilities, criticism, control, and disengagement appears to drive the couple’s relationship distress?",
+        "How do the partners’ differing expectations, personal histories, and experiences of vulnerability shape their interpretations of separation, intimacy, authority, and partnership?",
+        "What attempts have the couple made to repair the relationship through increased presence, clearer responsibilities, and cohabitation, and what initial outcomes or unresolved challenges have emerged?"
+      ],
+      "retrieved_by_question": [
+        {
+          "question": "What recurring cycle of unequal household and parenting responsibilities, criticism, control, and disengagement appears to drive the couple’s relationship distress?",
+          "records": [
+            {
+              "id": "ref-c03-01",
+              "score": 2.5979933000297093
+            },
+            {
+              "id": "ref-c03-02",
+              "score": 2.4188161999260402
+            },
+            {
+              "id": "ref-c01-01",
+              "score": 2.3995128031936446
+            },
+            {
+              "id": "ref-c03-04",
+              "score": 2.3400625929190184
+            },
+            {
+              "id": "ref-c01-05",
+              "score": 2.3400092222396687
+            },
+            {
+              "id": "mem-111",
+              "score": 2.294980445417802
+            },
+            {
+              "id": "ref-c02-01",
+              "score": 2.287000669673274
+            },
+            {
+              "id": "ref-c02-03",
+              "score": 2.285669666042259
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.2785029264665906
+            },
+            {
+              "id": "ref-c03-05",
+              "score": 2.200979215421668
+            },
+            {
+              "id": "mem-112",
+              "score": 2.1644309213705433
+            },
+            {
+              "id": "ref-c02-02",
+              "score": 2.1563102238223473
+            },
+            {
+              "id": "mem-103",
+              "score": 2.147361871912194
+            },
+            {
+              "id": "ref-c02-05",
+              "score": 2.145559785940077
+            },
+            {
+              "id": "ref-c03-03",
+              "score": 2.1391554938774067
+            }
+          ]
+        },
+        {
+          "question": "How do the partners’ differing expectations, personal histories, and experiences of vulnerability shape their interpretations of separation, intimacy, authority, and partnership?",
+          "records": [
+            {
+              "id": "ref-c03-04",
+              "score": 2.839573766445823
+            },
+            {
+              "id": "ref-c03-02",
+              "score": 2.6934426210052895
+            },
+            {
+              "id": "ref-c01-05",
+              "score": 2.6368504283051335
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.5539839092846757
+            },
+            {
+              "id": "ref-c02-03",
+              "score": 2.5240758569197377
+            },
+            {
+              "id": "ref-c02-05",
+              "score": 2.5143815394982956
+            },
+            {
+              "id": "ref-c03-05",
+              "score": 2.49120963014292
+            },
+            {
+              "id": "ref-c03-01",
+              "score": 2.4534487235849305
+            },
+            {
+              "id": "ref-c01-01",
+              "score": 2.442815166367998
+            },
+            {
+              "id": "ref-c03-03",
+              "score": 2.417813532827119
+            },
+            {
+              "id": "ref-c02-04",
+              "score": 2.3980548962418924
+            },
+            {
+              "id": "ref-c02-01",
+              "score": 2.382442903767526
+            },
+            {
+              "id": "ref-c02-02",
+              "score": 2.3597696146507925
+            },
+            {
+              "id": "ref-c01-03",
+              "score": 2.3552329328550976
+            },
+            {
+              "id": "mem-096",
+              "score": 2.298323887630194
+            }
+          ]
+        },
+        {
+          "question": "What attempts have the couple made to repair the relationship through increased presence, clearer responsibilities, and cohabitation, and what initial outcomes or unresolved challenges have emerged?",
+          "records": [
+            {
+              "id": "ref-c01-05",
+              "score": 2.8127064331632488
+            },
+            {
+              "id": "ref-c03-02",
+              "score": 2.6411930206014986
+            },
+            {
+              "id": "ref-c01-02",
+              "score": 2.6082296423464424
+            },
+            {
+              "id": "ref-c02-05",
+              "score": 2.594510533340585
+            },
+            {
+              "id": "ref-c03-05",
+              "score": 2.5739323988505505
+            },
+            {
+              "id": "ref-c02-03",
+              "score": 2.554425048696229
+            },
+            {
+              "id": "ref-c01-01",
+              "score": 2.4513211044167127
+            },
+            {
+              "id": "ref-c01-03",
+              "score": 2.401858289059911
+            },
+            {
+              "id": "ref-c03-04",
+              "score": 2.374957896538353
+            },
+            {
+              "id": "ref-c03-01",
+              "score": 2.361576009818598
+            },
+            {
+              "id": "ref-c02-01",
+              "score": 2.2676400685605493
+            },
+            {
+              "id": "ref-c02-04",
+              "score": 2.2675893148551283
+            },
+            {
+              "id": "mem-111",
+              "score": 2.2133933846753435
+            },
+            {
+              "id": "ref-c03-03",
+              "score": 2.1982693812145975
+            },
+            {
+              "id": "ref-c02-02",
+              "score": 2.1835346042884334
+            }
+          ]
+        }
+      ],
+      "insights": [
+        {
+          "insight": "The relationship is organized around a self-reinforcing pursue–withdraw cycle: Participant A’s sense of carrying the family leads to criticism or directness, while Participant B experiences this as criticism or exclusion and withdraws, increasing her burden and resentment.",
+          "supporting_record_ids": [
+            "ref-c03-01",
+            "ref-c02-01",
+            "mem-096"
+          ]
+        },
+        {
+          "insight": "A major source of resentment is that cohabitation and parenthood began without explicit agreements about caregiving, chores, authority, and mutual responsibility, allowing incompatible expectations to become entrenched.",
+          "supporting_record_ids": [
+            "ref-c03-02",
+            "ref-c02-03",
+            "ref-c01-02"
+          ]
+        },
+        {
+          "insight": "Household conflict involves both unequal labor and competing forms of control: Participant A’s highly specific routines and management of the home leave her overburdened, while Participant B feels incapable, excluded, or displaced.",
+          "supporting_record_ids": [
+            "ref-c01-01",
+            "ref-c02-01",
+            "ref-c02-02"
+          ]
+        },
+        {
+          "insight": "The partners’ histories shape opposing responses to separation and withdrawal: Participant B’s childhood loneliness may make distance feel protective or restorative, whereas Participant A’s trauma and abandonment experiences make distance feel like rejection or quitting.",
+          "supporting_record_ids": [
+            "mem-111",
+            "mem-112",
+            "ref-c03-04",
+            "ref-c02-04",
+            "ref-c01-03"
+          ]
+        },
+        {
+          "insight": "Despite substantial strain, reduced intimacy, and fear about the family’s future, the relationship remains under consideration because the children, Participant A’s fertility history, and the possibility of greater presence and engagement provide motivation to test whether repair is possible.",
+          "supporting_record_ids": [
+            "ref-c01-05",
+            "ref-c03-05",
+            "ref-c02-05",
+            "ref-c03-03"
+          ]
+        }
+      ],
+      "question_response_id": "resp_0b5ad56fe8f9ac3f016a8dded7766c87d296bbe5c5a98dfcd1",
+      "insight_response_id": "resp_0cd46f63477df587016a8ddedc923887d2a19a48e707aa0149"
+    }
+  ],
+  "api_log": [
+    {
+      "label": "importance:mem-001",
+      "endpoint": "responses",
+      "response_id": "resp_0604a5dffc25f7f7016a8dde1a3e4087d2abd150a19483d51d",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-002",
+      "endpoint": "responses",
+      "response_id": "resp_0d3770e36d8e4f0b016a8dde1bfb2c87d2888b5443f509038a",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-003",
+      "endpoint": "responses",
+      "response_id": "resp_041de6483d074a3b016a8dde1e1ce087d2b497639b5876c7b9",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 153,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 168
+      }
+    },
+    {
+      "label": "importance:mem-004",
+      "endpoint": "responses",
+      "response_id": "resp_061d151224e4232b016a8dde1fb3fc87d2b9bb4c1d3622074a",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:mem-005",
+      "endpoint": "responses",
+      "response_id": "resp_0248a0952b3ec787016a8dde208f0887d284a0d041e1265430",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 134,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 149
+      }
+    },
+    {
+      "label": "importance:mem-006",
+      "endpoint": "responses",
+      "response_id": "resp_0e30e539f20aba47016a8dde21d0e087d2a60670eaa1c7e95f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-007",
+      "endpoint": "responses",
+      "response_id": "resp_0bdb0ec05c9901a1016a8dde23d94c87d282f0a5da7174f6cd",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 140,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 155
+      }
+    },
+    {
+      "label": "importance:mem-008",
+      "endpoint": "responses",
+      "response_id": "resp_07acb04316c0f824016a8dde25032087d2822e298aacfe0cf3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:mem-009",
+      "endpoint": "responses",
+      "response_id": "resp_049edd7b0ce1dae7016a8dde2740b087d2b8b9c6b9aeff20da",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:mem-010",
+      "endpoint": "responses",
+      "response_id": "resp_09ab717de9d30428016a8dde28b36c87d29a799d59e326b7d8",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 138,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 153
+      }
+    },
+    {
+      "label": "importance:mem-011",
+      "endpoint": "responses",
+      "response_id": "resp_0215228e21462705016a8dde29a2cc87d29c53860f0e1aa343",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 135,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 150
+      }
+    },
+    {
+      "label": "importance:mem-012",
+      "endpoint": "responses",
+      "response_id": "resp_0db6029e8afe3b19016a8dde2b825487d2bcded9c5aa4ecb93",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:mem-013",
+      "endpoint": "responses",
+      "response_id": "resp_054a0d361ec983b1016a8dde2d1bfc87d29c60748c5bdbb516",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-014",
+      "endpoint": "responses",
+      "response_id": "resp_0de6d487acd98233016a8dde2e331c87d296aa16b75d24b4e2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-015",
+      "endpoint": "responses",
+      "response_id": "resp_0a99e34f9f085da0016a8dde2f00c887d28180bb23221405dd",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 140,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 155
+      }
+    },
+    {
+      "label": "importance:mem-016",
+      "endpoint": "responses",
+      "response_id": "resp_00990d9d368e8b9e016a8dde30615887d2a651d8fa59765aa9",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:mem-017",
+      "endpoint": "responses",
+      "response_id": "resp_0cbdcc20dd9ebd12016a8dde31744c87d28764d1ecf8faa46e",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-018",
+      "endpoint": "responses",
+      "response_id": "resp_01b2b23bee89f04a016a8dde32d0b087d2b988ae31bc838e7c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-019",
+      "endpoint": "responses",
+      "response_id": "resp_03f4278795eb7ba6016a8dde33a01c87d2975a91d2edec2908",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 138,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 153
+      }
+    },
+    {
+      "label": "importance:mem-020",
+      "endpoint": "responses",
+      "response_id": "resp_017f64c4d88530be016a8dde34b07487d2b72ed68f3a78d470",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 158,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 173
+      }
+    },
+    {
+      "label": "importance:mem-021",
+      "endpoint": "responses",
+      "response_id": "resp_0507120efa224eee016a8dde35c0c887d2b944d554dbe0b1de",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 179,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 194
+      }
+    },
+    {
+      "label": "importance:mem-022",
+      "endpoint": "responses",
+      "response_id": "resp_07f885e4fbbe624a016a8dde36c20087d298924b15aa87a6d6",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 158,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 173
+      }
+    },
+    {
+      "label": "importance:mem-023",
+      "endpoint": "responses",
+      "response_id": "resp_0f790218268e1137016a8dde37d0c487d2baf12abf62a77d91",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-024",
+      "endpoint": "responses",
+      "response_id": "resp_0b4b3dc62256e9a6016a8dde38b1ec87d2a2888865965ec6ff",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:mem-025",
+      "endpoint": "responses",
+      "response_id": "resp_09cbb911acab4c5c016a8dde3a7c9c87d2bbfc7c5248ec8a37",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:mem-026",
+      "endpoint": "responses",
+      "response_id": "resp_03446332a856e56a016a8dde3b657c87d2a07aa41d787edae3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 152,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 167
+      }
+    },
+    {
+      "label": "importance:mem-027",
+      "endpoint": "responses",
+      "response_id": "resp_0440483ac89424d9016a8dde3c55bc87d285688728450e87d6",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 155,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 170
+      }
+    },
+    {
+      "label": "reflection-questions:1",
+      "endpoint": "responses",
+      "response_id": "resp_08756f762bae652b016a8dde3d304887d2889262af42964229",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 1092,
+        "input_tokens_details": {
+          "cache_write_tokens": 1089,
+          "cached_tokens": 0
+        },
+        "output_tokens": 94,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1186
+      }
+    },
+    {
+      "label": "embedding:query-c1-q1",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 27,
+        "total_tokens": 27
+      }
+    },
+    {
+      "label": "embedding:mem-002",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-005",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 21,
+        "total_tokens": 21
+      }
+    },
+    {
+      "label": "embedding:mem-007",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 27,
+        "total_tokens": 27
+      }
+    },
+    {
+      "label": "embedding:mem-024",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:mem-004",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:mem-027",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 42
+      }
+    },
+    {
+      "label": "embedding:mem-018",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-026",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 39,
+        "total_tokens": 39
+      }
+    },
+    {
+      "label": "embedding:mem-006",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-009",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-025",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-003",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 40,
+        "total_tokens": 40
+      }
+    },
+    {
+      "label": "embedding:mem-019",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 25
+      }
+    },
+    {
+      "label": "embedding:mem-014",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-011",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 22,
+        "total_tokens": 22
+      }
+    },
+    {
+      "label": "embedding:mem-013",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "embedding:mem-001",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "embedding:mem-020",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 45,
+        "total_tokens": 45
+      }
+    },
+    {
+      "label": "embedding:mem-012",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-017",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-021",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 66,
+        "total_tokens": 66
+      }
+    },
+    {
+      "label": "embedding:mem-008",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-015",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 27,
+        "total_tokens": 27
+      }
+    },
+    {
+      "label": "embedding:mem-016",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:mem-023",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-010",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 25
+      }
+    },
+    {
+      "label": "embedding:mem-022",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 45,
+        "total_tokens": 45
+      }
+    },
+    {
+      "label": "embedding:query-c1-q2",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 23,
+        "total_tokens": 23
+      }
+    },
+    {
+      "label": "embedding:query-c1-q3",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 29
+      }
+    },
+    {
+      "label": "reflection-insights:1",
+      "endpoint": "responses",
+      "response_id": "resp_0556cbd9be8e7364016a8dde46241087d289dbb2a8182acdb8",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 754,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 286,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1040
+      }
+    },
+    {
+      "label": "importance:ref-c01-01",
+      "endpoint": "responses",
+      "response_id": "resp_00b9a9d9209a1d90016a8dde49d6c887d2832404421bd0db72",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 157
+      }
+    },
+    {
+      "label": "importance:ref-c01-02",
+      "endpoint": "responses",
+      "response_id": "resp_08ff2a163acff9f0016a8dde4b43bc87d2a2680041691ad30d",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:ref-c01-03",
+      "endpoint": "responses",
+      "response_id": "resp_077010f9b5ac2867016a8dde4c46b487d2b6c6d5b1a3cc48f3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 157
+      }
+    },
+    {
+      "label": "importance:ref-c01-04",
+      "endpoint": "responses",
+      "response_id": "resp_055d7a696f74a21b016a8dde4d65f487d28c42c21a253648cb",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:ref-c01-05",
+      "endpoint": "responses",
+      "response_id": "resp_0ae95dce213110c7016a8dde4e6f9c87d2ae22129fda96e811",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 151,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 166
+      }
+    },
+    {
+      "label": "importance:mem-028",
+      "endpoint": "responses",
+      "response_id": "resp_05dd94ddf02f540f016a8dde4f975c87d2ad0a0df16d1a764d",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:mem-029",
+      "endpoint": "responses",
+      "response_id": "resp_0b75dd715c577d04016a8dde50ef2c87d2a2406d4aa4c1e40e",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-030",
+      "endpoint": "responses",
+      "response_id": "resp_090e618e554c9b7d016a8dde51ff6487d28bbbf3f70f9c75ae",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-031",
+      "endpoint": "responses",
+      "response_id": "resp_02aca556da4a9b78016a8dde52e2c087d2a2e2e42059a3f676",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 153,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 168
+      }
+    },
+    {
+      "label": "importance:mem-032",
+      "endpoint": "responses",
+      "response_id": "resp_0f86f200b1587770016a8dde53cb1087d294041da1f3ef6999",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:mem-033",
+      "endpoint": "responses",
+      "response_id": "resp_0fe45876c6a449cc016a8dde54bf6487d2bc664055c793209e",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 159,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 174
+      }
+    },
+    {
+      "label": "importance:mem-034",
+      "endpoint": "responses",
+      "response_id": "resp_0413c03f69356403016a8dde558cc087d2bb414f9b28badb17",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-035",
+      "endpoint": "responses",
+      "response_id": "resp_0ee00b1f8cec915b016a8dde56ad7887d2839009ec534e16d2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-036",
+      "endpoint": "responses",
+      "response_id": "resp_0fbc8f8d5e733979016a8dde57950c87d2829ec601fedd7192",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 157
+      }
+    },
+    {
+      "label": "importance:mem-037",
+      "endpoint": "responses",
+      "response_id": "resp_04015d07abe90bad016a8dde58a21087d2b5f4c77f6988559f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:mem-038",
+      "endpoint": "responses",
+      "response_id": "resp_0ffe812213207740016a8dde59ae7c87d292b24edff986a89c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:mem-039",
+      "endpoint": "responses",
+      "response_id": "resp_0bb449dbdb3c1a65016a8dde5a8c7c87d29f0ed2e843797a0c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:mem-040",
+      "endpoint": "responses",
+      "response_id": "resp_02bd4032230ae8c4016a8dde5c5eb487d2b79cde18f7ab209c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-041",
+      "endpoint": "responses",
+      "response_id": "resp_036f5d54dbd6fc52016a8dde5d564487d28edb2d219baa2dc0",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 152,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 167
+      }
+    },
+    {
+      "label": "importance:mem-042",
+      "endpoint": "responses",
+      "response_id": "resp_0d05a99d84df670b016a8dde5e70f487d2b2acb30388f24115",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:mem-043",
+      "endpoint": "responses",
+      "response_id": "resp_043bcda47dd8d5e0016a8dde60abb887d2bf7993008175d73b",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 139,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 154
+      }
+    },
+    {
+      "label": "importance:mem-044",
+      "endpoint": "responses",
+      "response_id": "resp_0bccbc324b5874fc016a8dde61a27c87d29a24b40b5ab5d31f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 140,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 155
+      }
+    },
+    {
+      "label": "importance:mem-045",
+      "endpoint": "responses",
+      "response_id": "resp_0af8a7f1ef0b8a6a016a8dde62867887d29ed44d00f0588912",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-046",
+      "endpoint": "responses",
+      "response_id": "resp_0b8700419d657cd2016a8dde6349b087d2871c80f91086c0f7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-047",
+      "endpoint": "responses",
+      "response_id": "resp_03aa65d554083d33016a8dde64830c87d29b0230a14df218a0",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 135,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 150
+      }
+    },
+    {
+      "label": "importance:mem-048",
+      "endpoint": "responses",
+      "response_id": "resp_0303b0b1c4845aed016a8dde66eb1887d2aff3a4d429b75bab",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-049",
+      "endpoint": "responses",
+      "response_id": "resp_003ccd9e345839e1016a8dde698ea887d2971aff52aa5b5e6b",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-050",
+      "endpoint": "responses",
+      "response_id": "resp_09f5193ca08dbd81016a8dde6b660087d2aba2eb6f5bdae1e8",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 157
+      }
+    },
+    {
+      "label": "importance:mem-051",
+      "endpoint": "responses",
+      "response_id": "resp_0620bc2eac953a59016a8dde6db1c087d2a729247db40fb676",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 164,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 179
+      }
+    },
+    {
+      "label": "importance:mem-052",
+      "endpoint": "responses",
+      "response_id": "resp_08a94ade237bef41016a8dde6f0f7487d2be61b5b5cf0550df",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 157
+      }
+    },
+    {
+      "label": "importance:mem-053",
+      "endpoint": "responses",
+      "response_id": "resp_043f676d7c62887a016a8dde7026f887d2865ede8a489ece43",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-054",
+      "endpoint": "responses",
+      "response_id": "resp_0d54675e9b5b99d1016a8dde71293887d282fe8e47800cd228",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 162,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 177
+      }
+    },
+    {
+      "label": "importance:mem-055",
+      "endpoint": "responses",
+      "response_id": "resp_05baf07e75b29eee016a8dde7271f087d28ee4197cab86da20",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-056",
+      "endpoint": "responses",
+      "response_id": "resp_0db8a44eb86d6832016a8dde7472a887d2b2fcc09ecf7343c3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 148,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 163
+      }
+    },
+    {
+      "label": "importance:mem-057",
+      "endpoint": "responses",
+      "response_id": "resp_0b6f65a500e45b4f016a8dde758bf087d2b97abaa5283a3463",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-058",
+      "endpoint": "responses",
+      "response_id": "resp_0f7ba73e049099c5016a8dde768a3c87d281c18d84c4cc11cb",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-059",
+      "endpoint": "responses",
+      "response_id": "resp_08d59adc9f7edf02016a8dde779a8c87d2bc1e5ba6442b09ab",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:mem-060",
+      "endpoint": "responses",
+      "response_id": "resp_0619d0b35d307acf016a8dde7a34d887d29ee4fc8a60660c57",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:mem-061",
+      "endpoint": "responses",
+      "response_id": "resp_0129bad6f1a929ee016a8dde7b230c87d2a0b60289a94fcec2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 156,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 171
+      }
+    },
+    {
+      "label": "importance:mem-062",
+      "endpoint": "responses",
+      "response_id": "resp_02ab92da71a9d189016a8dde7c3e6487d2a7e85f065810b966",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 153,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 168
+      }
+    },
+    {
+      "label": "importance:mem-063",
+      "endpoint": "responses",
+      "response_id": "resp_0a53ba6d8cee2b6d016a8dde7d303487d2a34ca36e0f102649",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "reflection-questions:2",
+      "endpoint": "responses",
+      "response_id": "resp_0cac9bc961a5f7d2016a8dde7eaa4c87d28cd291163fe1a2ed",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 2652,
+        "input_tokens_details": {
+          "cache_write_tokens": 2649,
+          "cached_tokens": 0
+        },
+        "output_tokens": 104,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2756
+      }
+    },
+    {
+      "label": "embedding:query-c2-q1",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:ref-c01-01",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 29
+      }
+    },
+    {
+      "label": "embedding:ref-c01-02",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-039",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:mem-031",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 40,
+        "total_tokens": 40
+      }
+    },
+    {
+      "label": "embedding:mem-037",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-028",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-029",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-047",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 22,
+        "total_tokens": 22
+      }
+    },
+    {
+      "label": "embedding:mem-033",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 46,
+        "total_tokens": 46
+      }
+    },
+    {
+      "label": "embedding:mem-042",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:mem-035",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-049",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-044",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 27,
+        "total_tokens": 27
+      }
+    },
+    {
+      "label": "embedding:ref-c01-03",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 29
+      }
+    },
+    {
+      "label": "embedding:mem-043",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 26,
+        "total_tokens": 26
+      }
+    },
+    {
+      "label": "embedding:mem-056",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:mem-063",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-060",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 41
+      }
+    },
+    {
+      "label": "embedding:mem-054",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 49,
+        "total_tokens": 49
+      }
+    },
+    {
+      "label": "embedding:mem-055",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-052",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 29
+      }
+    },
+    {
+      "label": "embedding:ref-c01-04",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "embedding:mem-038",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:ref-c01-05",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 38,
+        "total_tokens": 38
+      }
+    },
+    {
+      "label": "embedding:mem-048",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-053",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-030",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-045",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-032",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:mem-040",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-046",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-057",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-050",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-036",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 29
+      }
+    },
+    {
+      "label": "embedding:mem-034",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-058",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-051",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 50,
+        "total_tokens": 50
+      }
+    },
+    {
+      "label": "embedding:mem-041",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 39,
+        "total_tokens": 39
+      }
+    },
+    {
+      "label": "embedding:mem-059",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:mem-062",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 40,
+        "total_tokens": 40
+      }
+    },
+    {
+      "label": "embedding:mem-061",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 43,
+        "total_tokens": 43
+      }
+    },
+    {
+      "label": "embedding:query-c2-q2",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 29
+      }
+    },
+    {
+      "label": "embedding:query-c2-q3",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "reflection-insights:2",
+      "endpoint": "responses",
+      "response_id": "resp_024ed4c9aacc25aa016a8dde83fdac87d2b0daf95a091c9d20",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 886,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 330,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1216
+      }
+    },
+    {
+      "label": "importance:ref-c02-01",
+      "endpoint": "responses",
+      "response_id": "resp_0b77cfc3f52b84af016a8dde87e1b487d2852b90ff3fd0a351",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 156,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 171
+      }
+    },
+    {
+      "label": "importance:ref-c02-02",
+      "endpoint": "responses",
+      "response_id": "resp_0ffbc45c379cff29016a8dde88c4fc87d2829e832be7a41f64",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 157,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 172
+      }
+    },
+    {
+      "label": "importance:ref-c02-03",
+      "endpoint": "responses",
+      "response_id": "resp_0934770cbefaa830016a8dde89c94087d2942780a9f1d0f5c3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:ref-c02-04",
+      "endpoint": "responses",
+      "response_id": "resp_01dea18128dc391c016a8dde8af0bc87d281b67deed4a51761",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:ref-c02-05",
+      "endpoint": "responses",
+      "response_id": "resp_08759ebc1b335e2f016a8dde8c104c87d2b8fa7f46b49e7086",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-064",
+      "endpoint": "responses",
+      "response_id": "resp_00cf8a9c91e6e9d6016a8dde8d174487d28b75792e0a810b7c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-065",
+      "endpoint": "responses",
+      "response_id": "resp_0da0419ccacb847a016a8dde8e1c1487d2a590e16cd60890dd",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 164,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 179
+      }
+    },
+    {
+      "label": "importance:mem-066",
+      "endpoint": "responses",
+      "response_id": "resp_059eeaea5365cb09016a8dde8f363887d29a19c0cacb52b781",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-067",
+      "endpoint": "responses",
+      "response_id": "resp_089608141d8db690016a8dde90de3887d2b9b073fa71255f85",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 162,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 177
+      }
+    },
+    {
+      "label": "importance:mem-068",
+      "endpoint": "responses",
+      "response_id": "resp_0ad40ef6410aa5a0016a8dde91cd1487d2af596f4b4463ad86",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-069",
+      "endpoint": "responses",
+      "response_id": "resp_02829c15b8be9330016a8dde92b84487d28b6d83ab4820c273",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 156,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 171
+      }
+    },
+    {
+      "label": "importance:mem-070",
+      "endpoint": "responses",
+      "response_id": "resp_061f4c5851caa68c016a8dde93fc5087d2840aa8d25cadc5c6",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 161,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 176
+      }
+    },
+    {
+      "label": "importance:mem-071",
+      "endpoint": "responses",
+      "response_id": "resp_098f792d5e9dab00016a8dde94fac087d29e1bef2faeb1b22c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-072",
+      "endpoint": "responses",
+      "response_id": "resp_0327bea3437471ff016a8dde9661e087d2b3ede4d9bcc96bfb",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 138,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 153
+      }
+    },
+    {
+      "label": "importance:mem-073",
+      "endpoint": "responses",
+      "response_id": "resp_00e86c562e60fb16016a8dde97655c87d28a036e3789c0a83a",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 155,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 170
+      }
+    },
+    {
+      "label": "importance:mem-074",
+      "endpoint": "responses",
+      "response_id": "resp_0ccebc18d4aa45d7016a8dde98aad487d2b248357175d877a3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-075",
+      "endpoint": "responses",
+      "response_id": "resp_0c2673c70dcfb272016a8dde99c13487d29baba3102d162335",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-076",
+      "endpoint": "responses",
+      "response_id": "resp_03aeab7493fb24c1016a8dde9c7c5c87d28feb828e70b6d5c1",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-077",
+      "endpoint": "responses",
+      "response_id": "resp_00a78bd4c6146310016a8dde9db06887d28482e962a592d4c7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 152,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 167
+      }
+    },
+    {
+      "label": "importance:mem-078",
+      "endpoint": "responses",
+      "response_id": "resp_0ab28cef16ee7a1c016a8dde9e9b3487d2b1892e50f1b71a22",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-079",
+      "endpoint": "responses",
+      "response_id": "resp_076db960098cb6ba016a8ddea040d487d2b9201b294921cae9",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 159,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 174
+      }
+    },
+    {
+      "label": "importance:mem-080",
+      "endpoint": "responses",
+      "response_id": "resp_0ee103fd1b3c77f8016a8ddea1577c87d2a95fefc400317749",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 140,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 155
+      }
+    },
+    {
+      "label": "importance:mem-081",
+      "endpoint": "responses",
+      "response_id": "resp_09cb0a042fdeecdf016a8ddea29d6c87d2afc51f3b25fbf9c5",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-082",
+      "endpoint": "responses",
+      "response_id": "resp_0464bfa5fc309430016a8ddea3bcdc87d29fde0d300460b84f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-083",
+      "endpoint": "responses",
+      "response_id": "resp_0f4902d1ef855ac2016a8ddea4cca487d28eb6136d9f730d62",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-084",
+      "endpoint": "responses",
+      "response_id": "resp_0d660a630fd74c6e016a8ddea5fc5c87d28841f42187c40713",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-085",
+      "endpoint": "responses",
+      "response_id": "resp_07de215757e35413016a8ddea74b8887d2a2ef324ba594e18b",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 141,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 156
+      }
+    },
+    {
+      "label": "importance:mem-086",
+      "endpoint": "responses",
+      "response_id": "resp_033d55827ae5be8d016a8ddea89f2887d2868a9cbe82bb8fb7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 138,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 153
+      }
+    },
+    {
+      "label": "importance:mem-087",
+      "endpoint": "responses",
+      "response_id": "resp_095e410748ba2414016a8ddea9924887d2bf2d2466db79c3aa",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 160,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 175
+      }
+    },
+    {
+      "label": "importance:mem-088",
+      "endpoint": "responses",
+      "response_id": "resp_0338821b5e645c06016a8ddeaade0087d286eebdd93f653544",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "reflection-questions:3",
+      "endpoint": "responses",
+      "response_id": "resp_0a961f4f96a223b2016a8ddeac74dc87d2aa40fb4e5bcaedb7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3881,
+        "input_tokens_details": {
+          "cache_write_tokens": 3878,
+          "cached_tokens": 0
+        },
+        "output_tokens": 103,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3984
+      }
+    },
+    {
+      "label": "embedding:query-c3-q1",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 23,
+        "total_tokens": 23
+      }
+    },
+    {
+      "label": "embedding:ref-c02-01",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 43,
+        "total_tokens": 43
+      }
+    },
+    {
+      "label": "embedding:ref-c02-03",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-065",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 51,
+        "total_tokens": 51
+      }
+    },
+    {
+      "label": "embedding:mem-077",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 40,
+        "total_tokens": 40
+      }
+    },
+    {
+      "label": "embedding:mem-084",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:mem-088",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-087",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 47,
+        "total_tokens": 47
+      }
+    },
+    {
+      "label": "embedding:mem-067",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 49,
+        "total_tokens": 49
+      }
+    },
+    {
+      "label": "embedding:mem-064",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-074",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-071",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "embedding:ref-c02-04",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 38,
+        "total_tokens": 38
+      }
+    },
+    {
+      "label": "embedding:mem-068",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 29
+      }
+    },
+    {
+      "label": "embedding:mem-075",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-086",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 25
+      }
+    },
+    {
+      "label": "embedding:mem-073",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 42
+      }
+    },
+    {
+      "label": "embedding:mem-069",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 43,
+        "total_tokens": 43
+      }
+    },
+    {
+      "label": "embedding:mem-072",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 25
+      }
+    },
+    {
+      "label": "embedding:mem-081",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-066",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-083",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 34
+      }
+    },
+    {
+      "label": "embedding:mem-076",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-078",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:ref-c02-02",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 45,
+        "total_tokens": 45
+      }
+    },
+    {
+      "label": "embedding:ref-c02-05",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-080",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 27,
+        "total_tokens": 27
+      }
+    },
+    {
+      "label": "embedding:mem-082",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "embedding:mem-070",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 48,
+        "total_tokens": 48
+      }
+    },
+    {
+      "label": "embedding:mem-085",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:mem-079",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 46,
+        "total_tokens": 46
+      }
+    },
+    {
+      "label": "embedding:query-c3-q2",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:query-c3-q3",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 35
+      }
+    },
+    {
+      "label": "reflection-insights:3",
+      "endpoint": "responses",
+      "response_id": "resp_024d2404c33a1b7a016a8ddeb176c087d2a038d05c4909dfaa",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 952,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 360,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1312
+      }
+    },
+    {
+      "label": "importance:ref-c03-01",
+      "endpoint": "responses",
+      "response_id": "resp_0c2627be0c6438e5016a8ddeb62a7c87d292c83076fbc00b48",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 152,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 167
+      }
+    },
+    {
+      "label": "importance:ref-c03-02",
+      "endpoint": "responses",
+      "response_id": "resp_059172f852613978016a8ddeb739f487d2a5c9f99ae5fa50c6",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 151,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 166
+      }
+    },
+    {
+      "label": "importance:ref-c03-03",
+      "endpoint": "responses",
+      "response_id": "resp_08239e610183b3d1016a8ddeb842cc87d2b209ac8d5d9eefde",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 153,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 168
+      }
+    },
+    {
+      "label": "importance:ref-c03-04",
+      "endpoint": "responses",
+      "response_id": "resp_0f1f00c4eee7b168016a8ddeba7ff887d2a541e414a1a47fca",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:ref-c03-05",
+      "endpoint": "responses",
+      "response_id": "resp_0916270de10a957e016a8ddebbac0c87d2b54005e4a700fe44",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 159,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 174
+      }
+    },
+    {
+      "label": "importance:mem-089",
+      "endpoint": "responses",
+      "response_id": "resp_039651d63ac70ab8016a8ddebc9ff887d284fef0b201e548c2",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-090",
+      "endpoint": "responses",
+      "response_id": "resp_0e9d5ca260dc3480016a8ddebdf30487d28668705290684b4e",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:mem-091",
+      "endpoint": "responses",
+      "response_id": "resp_058aafd129e2d932016a8ddebee2a487d2ba75fe07849af06a",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 161,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 176
+      }
+    },
+    {
+      "label": "importance:mem-092",
+      "endpoint": "responses",
+      "response_id": "resp_0c9f6bdea2b567a6016a8ddebffbf487d2a776b1618b68a75c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-093",
+      "endpoint": "responses",
+      "response_id": "resp_0ba211bca7f3435f016a8ddec0e82487d283f1770138aa0a25",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:mem-094",
+      "endpoint": "responses",
+      "response_id": "resp_046d85f8fd488a01016a8ddec1d51487d2b85bec31f8f8e705",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-095",
+      "endpoint": "responses",
+      "response_id": "resp_0e30ff702812b860016a8ddec2daac87d2ac991ad7744d378c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:mem-096",
+      "endpoint": "responses",
+      "response_id": "resp_0c4a8f5970f6fd78016a8ddec3c3ac87d2bc578bf1b0bc8044",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 160,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 175
+      }
+    },
+    {
+      "label": "importance:mem-097",
+      "endpoint": "responses",
+      "response_id": "resp_022230dc433112cf016a8ddec4b75487d28f459479e39f30a0",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 159,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 174
+      }
+    },
+    {
+      "label": "importance:mem-098",
+      "endpoint": "responses",
+      "response_id": "resp_0f4d16de13c01297016a8ddec5bb3487d28aad45fdb0caaa81",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 158,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 173
+      }
+    },
+    {
+      "label": "importance:mem-099",
+      "endpoint": "responses",
+      "response_id": "resp_04a11ca7e2b7b666016a8ddec6e36887d2b0f19a7c50d76571",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-100",
+      "endpoint": "responses",
+      "response_id": "resp_0da9a77e75f3f0c5016a8ddec7c74487d2b4254300c7fcca0f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-101",
+      "endpoint": "responses",
+      "response_id": "resp_01ca4e6417e814ea016a8ddec9841087d28499ea0c6630d97c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 139,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 154
+      }
+    },
+    {
+      "label": "importance:mem-102",
+      "endpoint": "responses",
+      "response_id": "resp_0bfa41571019e9d8016a8ddecaa1b487d29cdb0e926801ddde",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 156,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 171
+      }
+    },
+    {
+      "label": "importance:mem-103",
+      "endpoint": "responses",
+      "response_id": "resp_073b92ef06ad8786016a8ddecbc60087d2969a0c18472ef42c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 161
+      }
+    },
+    {
+      "label": "importance:mem-104",
+      "endpoint": "responses",
+      "response_id": "resp_063e35fbfaa71334016a8ddecd1cb487d29f76c636ac1d61d1",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 157,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 172
+      }
+    },
+    {
+      "label": "importance:mem-105",
+      "endpoint": "responses",
+      "response_id": "resp_05a29ead8fe70c29016a8ddece6a9087d29889a2d64d1ef863",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 159
+      }
+    },
+    {
+      "label": "importance:mem-106",
+      "endpoint": "responses",
+      "response_id": "resp_0abfd9bb12edf875016a8ddecf8ec887d285da66ded74329e7",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 160
+      }
+    },
+    {
+      "label": "importance:mem-107",
+      "endpoint": "responses",
+      "response_id": "resp_0ef0ebed5cadff01016a8dded087b087d2a2a7333ea51f827f",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:mem-108",
+      "endpoint": "responses",
+      "response_id": "resp_014107edb48bb337016a8dded18a7487d2bf2a9e24b3c20f7c",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 153,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 168
+      }
+    },
+    {
+      "label": "importance:mem-109",
+      "endpoint": "responses",
+      "response_id": "resp_0e42ef41d8fe2326016a8dded2cb4887d2acb4e938a032415e",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-110",
+      "endpoint": "responses",
+      "response_id": "resp_0612b1a9fa28b106016a8dded3f8b487d2af4500eaf716e5b1",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 158
+      }
+    },
+    {
+      "label": "importance:mem-111",
+      "endpoint": "responses",
+      "response_id": "resp_07b275046d0cc6a3016a8dded51a9087d2994b55b02517fd02",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 158,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 173
+      }
+    },
+    {
+      "label": "importance:mem-112",
+      "endpoint": "responses",
+      "response_id": "resp_0db654cddcc8cbfb016a8dded68a7887d29fe081e157b735ec",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "reflection-questions:4",
+      "endpoint": "responses",
+      "response_id": "resp_0b5ad56fe8f9ac3f016a8dded7766c87d296bbe5c5a98dfcd1",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4089,
+        "input_tokens_details": {
+          "cache_write_tokens": 4086,
+          "cached_tokens": 0
+        },
+        "output_tokens": 101,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4190
+      }
+    },
+    {
+      "label": "embedding:query-c4-q1",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 27,
+        "total_tokens": 27
+      }
+    },
+    {
+      "label": "embedding:mem-103",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "embedding:mem-097",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 46,
+        "total_tokens": 46
+      }
+    },
+    {
+      "label": "embedding:mem-093",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:mem-099",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-112",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-090",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:ref-c03-04",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-106",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "embedding:mem-102",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 43,
+        "total_tokens": 43
+      }
+    },
+    {
+      "label": "embedding:mem-098",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 45,
+        "total_tokens": 45
+      }
+    },
+    {
+      "label": "embedding:ref-c03-01",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 40,
+        "total_tokens": 40
+      }
+    },
+    {
+      "label": "embedding:mem-095",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 37
+      }
+    },
+    {
+      "label": "embedding:mem-096",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 47,
+        "total_tokens": 47
+      }
+    },
+    {
+      "label": "embedding:mem-091",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 48,
+        "total_tokens": 48
+      }
+    },
+    {
+      "label": "embedding:mem-110",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      }
+    },
+    {
+      "label": "embedding:mem-111",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 45,
+        "total_tokens": 45
+      }
+    },
+    {
+      "label": "embedding:mem-107",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 41
+      }
+    },
+    {
+      "label": "embedding:mem-094",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "embedding:ref-c03-05",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 46,
+        "total_tokens": 46
+      }
+    },
+    {
+      "label": "embedding:mem-101",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 26,
+        "total_tokens": 26
+      }
+    },
+    {
+      "label": "embedding:ref-c03-03",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 42
+      }
+    },
+    {
+      "label": "embedding:ref-c03-02",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 38,
+        "total_tokens": 38
+      }
+    },
+    {
+      "label": "embedding:mem-092",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-109",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 36,
+        "total_tokens": 36
+      }
+    },
+    {
+      "label": "embedding:mem-105",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:mem-108",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 42
+      }
+    },
+    {
+      "label": "embedding:mem-089",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 33
+      }
+    },
+    {
+      "label": "embedding:mem-104",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 44,
+        "total_tokens": 44
+      }
+    },
+    {
+      "label": "embedding:mem-100",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 31
+      }
+    },
+    {
+      "label": "embedding:query-c4-q2",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 28
+      }
+    },
+    {
+      "label": "embedding:query-c4-q3",
+      "endpoint": "embeddings",
+      "response_id": null,
+      "returned_model": "text-embedding-ada-002-v2",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 32
+      }
+    },
+    {
+      "label": "reflection-insights:4",
+      "endpoint": "responses",
+      "response_id": "resp_0cd46f63477df587016a8ddedc923887d2a19a48e707aa0149",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 990,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 378,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1368
+      }
+    },
+    {
+      "label": "importance:ref-c04-01",
+      "endpoint": "responses",
+      "response_id": "resp_0f90ab5756d9c69a016a8ddee1801487d2bd0ea1a55d114702",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 162,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 177
+      }
+    },
+    {
+      "label": "importance:ref-c04-02",
+      "endpoint": "responses",
+      "response_id": "resp_0eb799d4ee4dc7e9016a8ddee2ae5487d2a86b87004b563352",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 150,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 165
+      }
+    },
+    {
+      "label": "importance:ref-c04-03",
+      "endpoint": "responses",
+      "response_id": "resp_04c7096af62fffd2016a8ddee560ec87d2a9d2ae6347efa5c5",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:ref-c04-04",
+      "endpoint": "responses",
+      "response_id": "resp_09a828ef517ef244016a8ddee6d3dc87d2842765076cfd8fef",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 169
+      }
+    },
+    {
+      "label": "importance:ref-c04-05",
+      "endpoint": "responses",
+      "response_id": "resp_0dd81910dfbe7075016a8ddee7f1dc87d2b36d224b806cad52",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 160,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 175
+      }
+    },
+    {
+      "label": "importance:mem-113",
+      "endpoint": "responses",
+      "response_id": "resp_0ff7c1c43cfe8fbb016a8ddee9445087d29dd545a2c8218c67",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 153,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 168
+      }
+    },
+    {
+      "label": "importance:mem-114",
+      "endpoint": "responses",
+      "response_id": "resp_05bbcda7b6386722016a8ddeea46b487d2858d1b88d21ce8d3",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 147,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 162
+      }
+    },
+    {
+      "label": "importance:mem-115",
+      "endpoint": "responses",
+      "response_id": "resp_035175c382d03bc0016a8ddeebd45c87d2a2ae561f67c0811d",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 149,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 164
+      }
+    },
+    {
+      "label": "importance:mem-116",
+      "endpoint": "responses",
+      "response_id": "resp_06ba9335db029ac6016a8ddeed4e1087d2aa1341cffb1e9289",
+      "returned_model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 167,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 182
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "experiment_id": "triad-01-participant-e-heldout-v1",
+    "target_participant": "Participant E",
+    "relationship_system": "Triad 01",
+    "source_window": "Episodes 8–9",
+    "development_window": "Episodes 1–7",
+    "contains_observed_responses": false,
+    "identity_key_included": false,
+    "version": "1.0.0",
+    "frozen": true
+  },
+  "instructions": "Each situation ends before Participant E's target response. Predict the participant rather than recommend ideal behaviour. Ground truth must not be loaded during retrieval or generation.",
+  "situations": [
+    {
+      "situation_id": "t01-pe-h01",
+      "episode": 8,
+      "part": 1,
+      "target": "Participant E",
+      "interaction_domain": "future_and_anchor",
+      "situation_text": "The clinician links Participant E's caregiving history and constricted sense of the future with E's two serious partners both having anchor partners, then asks what E may want for E's own future.",
+      "prediction_point": "Predict E's immediate interpretation, affect, response strategy, objective, escalation and partner effect.",
+      "excluded_information": "Participant E's observed response and subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pe-h02",
+      "episode": 8,
+      "part": 1,
+      "target": "Participant E",
+      "interaction_domain": "invitation_choice",
+      "situation_text": "E's other anchor partner offers a simple choice: E can invite Participant D to a party, or the anchor partner can do it. E must decide how to respond before the event.",
+      "prediction_point": "Predict E's likely internal response and observable action.",
+      "excluded_information": "Participant E's observed response and subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pe-h03",
+      "episode": 9,
+      "part": 2,
+      "target": "Participant E",
+      "interaction_domain": "possible_relocation",
+      "situation_text": "Participant E considers a plausible future in which Participants C and D move to another city while C pursues career and personal needs.",
+      "prediction_point": "Predict how E responds to the possibility, including whether E seeks control, vetoes, accommodates or names insecurity.",
+      "excluded_information": "Participant E's observed response and subsequent discussion are withheld."
+    },
+    {
+      "situation_id": "t01-pe-h04",
+      "episode": 9,
+      "part": 2,
+      "target": "Participant E",
+      "interaction_domain": "expectation_ambiguity",
+      "situation_text": "The clinician suggests that non-hierarchical ideology can obscure feelings and that the relationship's words and practical actions have not always provided the same expectations.",
+      "prediction_point": "Predict E's immediate self-reflection about how E learned what to expect from the relationship.",
+      "excluded_information": "Participant E's observed response and subsequent discussion are withheld."
+    }
+  ]
+}

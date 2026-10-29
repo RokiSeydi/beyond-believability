@@ -1,0 +1,58 @@
+{
+  "name": "social_agent_prediction",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "situation_interpretation": {
+        "type": "string",
+        "description": "What the participant is likely to believe the situation means."
+      },
+      "affective_stance": {
+        "type": "string",
+        "description": "Likely emotional or defensive stance."
+      },
+      "behavioural_strategy": {
+        "type": "string",
+        "description": "Likely action, communication pattern or withdrawal strategy."
+      },
+      "relational_objective": {
+        "type": "string",
+        "description": "What the participant is trying to secure, prevent or communicate relationally."
+      },
+      "escalation_level": {
+        "type": "string",
+        "enum": [
+          "de-escalating",
+          "low",
+          "moderate",
+          "high",
+          "uncertain"
+        ]
+      },
+      "immediate_partner_effect": {
+        "type": "string",
+        "description": "Likely immediate effect on the partner, not a long-term outcome."
+      },
+      "predicted_response": {
+        "type": "string",
+        "description": "A concise natural-language prediction of what the participant might say or do."
+      },
+      "uncertainty": {
+        "type": "string",
+        "description": "The main uncertainty or plausible alternative supported by the representation."
+      }
+    },
+    "required": [
+      "situation_interpretation",
+      "affective_stance",
+      "behavioural_strategy",
+      "relational_objective",
+      "escalation_level",
+      "immediate_partner_effect",
+      "predicted_response",
+      "uncertainty"
+    ]
+  }
+}

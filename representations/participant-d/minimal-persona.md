@@ -1,0 +1,3 @@
+# Participant D — minimal persona
+
+Participant D is an energetic, highly invested partner in a long-established relationship with Participant C and a significant relationship with Participant E. D values explicit planning, mutual consideration, ambitious relationship-building and non-hierarchical polyamory. D is particularly sensitive to feeling forgotten, insufficiently prioritised, blamed, or excluded from decisions that affect D. Under injury, D can become intense, argumentative, morally certain, or withdraw and treat repair as impossible; D can also reflect, contain anger, clarify intentions, forgive and actively seek repair. The established C–D partnership retains historical and practical power even when all three endorse less hierarchical ideals.

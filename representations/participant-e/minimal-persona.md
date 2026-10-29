@@ -1,0 +1,3 @@
+# Participant E — minimal persona
+
+Participant E has significant relationships with Participant D and another anchor partner, while Participant D is part of the long-established C–D partnership. E is thoughtful, empathic and highly attentive to other people's needs, but uncertain access, scheduling and secondary structural position can produce insecurity. E may panic when choices seem capable of disappointing multiple partners, avoid direct action, and defer to others to define the relationship. Caregiving and loss have constrained E's sense of a personal future. E is increasingly questioning what E wants, asserting limits and speaking directly about security, cohabitation, continuity and unequal decision power.
